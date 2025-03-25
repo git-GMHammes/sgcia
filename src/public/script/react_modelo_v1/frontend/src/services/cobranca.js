@@ -4,7 +4,7 @@ import { getBaseApi } from '../config/env';
 
 // Obter a URL base do ambiente atual
 const baseUrl = getBaseApi();
-console.log('baseUrl (C:/laragon/www/sgcpro/src/public/script/react_modelo_v1/frontend/src/services/circuito.js):', baseUrl);
+console.log('baseUrl (C:/laragon/www/sgcpro/src/public/script/react_modelo_v1/frontend/src/services/cobranca.js):', baseUrl);
 // Configuração base do axios
 
 // Configuração base do axios

@@ -25,7 +25,7 @@ const ModalBasic = ({ idModal, buttonName, strTitleModal, children, isOpenInitia
 
     return (
         <div>
-            <div className="d-flex gap-2 m-1">
+            <div className="d-flex gap-2 m-1 justify-content-center">
                 {/* Botão */}
                 <button
                     type="button"

@@ -46,7 +46,6 @@ const AppListarConteudo = ({
       <table className="table table-striped table-hover">
         <thead>
           <tr className="bg-gray-200">
-            <th className="p-2">ID</th>
             <th className="p-2">Circuito</th>
             <th className="p-2">Secretaria</th>
             <th className="p-2">Empresa</th>
@@ -61,7 +60,6 @@ const AppListarConteudo = ({
         <tbody>
           {lista.map((listar) => (
             <tr key={listar.id} className="hover:bg-gray-100">
-              <td className="p-2 border">{listar.id}</td>
               <td className="p-2 border">{listar.circ_nome}</td>
               <td className="p-2 border">{listar.cad_sigla_pronome_tratamento}</td>
               <td className="p-2 border">{listar.cad_sigla_pronome_tratamento}</td>
