@@ -1,0 +1,11 @@
+{
+    "id": "{{id}}",
+    "cadastro_id": "{{cadastro_id}}",
+    "favorito": "{{favorito}}",
+    "numero": "{{numero}}",
+    "tipo": "{{tipo}}",
+    "created_by": "{{0}}",
+    "created_by_name": "{{unknown}}",
+    "updated_by": "{{0}}",
+    "updated_by_name": "{{unknown}}"
+}

@@ -1,0 +1,98 @@
+cd C:\laragon\www\sgcpro\
+...
+ 
+cd C:\laragon\www\sgcpro\
+ 
+clear
+ 
+cd C:\laragon\www\sgcpro\doc\txt
+ 
+git --no-pager log --since="2025-03-01" --until="2025-03-18" --pretty=format:"%H" > gitLab20250318.txt
+ 
+clear
+  
+...
+ 
+clear
+ 
+cd C:\laragon\www\sgcpro\Doc\txt
+$outFile = "gitLab2020318_show.txt"
+if (Test-Path $outFile) { Remove-Item $outFile } # Remove o arquivo se já existir
+$commits = @(
+    "745ba52bc2e1a0a1d84829c9a4f185783ed67beb",
+    "3834463f38e6fd12509d4186274a7705a5b341ed",
+    "dc482007071f87982e486e13fbff6a4e5b018379",
+    "4802cd6af24c200095398488549b19df96c9cc25",
+    "9ae6a367395d7b9c389ca2ae64fc5acc41246373",
+    "763eb4c9ed98f79d09f72a3c0b6022eff48a249c",
+    "669fc575b5bd5e3b1082285b87c44c4678f0d75b",
+    "665bdcef828b4a42aaf6492481ffd815137d4e06",
+    "aa6c28a896c22749c89bb56937975bc9a9267410",
+    "9c5f72013d7c0dd35247c6c317a96e45d2ee190d",
+    "d0ca9ea7a4cae8628f5c8447fb9c895a36b0486a",
+    "bdf4b5863ec6cc753c4616d2c11282affc8da033",
+    "82bca73f904a45fa1f4c646f5a051beea1ab5b02",
+    "20ad4867a2794ee5aec952ce2cfad1647b0c037c",
+    "1698e3fb92a6b23e7b436c9c5745edf3b95551dd",
+    "856357833b9a02a174801ee564d13ca35948d39d",
+    "bc3934996211b5bfe8e8a36eb247055aad6bdf67",
+    "198484dd5a8b9d699970675de542433da17a2dff",
+    "8bbdc298b125569d74408e106e9c5b60668fde00",
+    "9f7484be1c1beff88eab149cbd7348ffb3784d04",
+    "987a1849f5a122aafb9eafdfed2eeec38c73d2dc",
+    "655bd4746d4aba178fca85bca73132ef44bf8a83",
+    "ad31aa6f8b6e1bad9034251b1af2d3be4b0293f8",
+    "f0bc6721c3a7c31e16817bc23951d42976774c5d",
+    "1fd9503bbf32b3b7ae6031febed53a8df5405fbb",
+    "b7b4f70c2e7541b0f359344a4c678838c9ae4012",
+    "68d3f71dc9dbd3c81b17a7587f259257e7d8869e",
+    "b1512cd178f2fd6f4dd2a867d789d5ac017f92f2",
+    "8f322054b94383b9d1a9fbf468ec50a972eb5f70",
+    "9b2a96aebb274bb93db60888c48c996f5d48a606",
+    "b2457a583ce61238367b71dabac32964ed030e9f",
+    "3a150c87d36a00f2815392ebc773f9aed1b8ae2e",
+    "82737efe0a588753a3153bba993a0a44743e6839",
+    "9b1c1ae934a039f421596e7d3336aa7091817b41",
+    "410c35490d92c63e9027101f65b6ddb2ece06dc9",
+    "345b9fdc5198b14e2b3da9507fb1109d607cee8b",
+    "dc1fbeaef61b73ff1426e40245fc108b09df1df2",
+    "3ab13dafdbf03f6446eb2ac57bc4805666c6cc73",
+    "0db0f84bc86bd93a7fabf9e5c4e2a61e96edeab1",
+    "bca5ecf92da59359d278751a911db00431af6646",
+    "ef7d1d58473b40b37b3a5e67e152d49fc35c0f67",
+    "4a9cfbd1658ecaa38a0d56ad3efc6114d2e5421f",
+    "eef1ecb367a83da581d311e2269286f471cdf94b",
+    "28ae6fc4659e5fd33a836f2e9869afb951ed6d25",
+    "a4597fc9745684504c0d4239342f909f77fe14fd",
+    "dcb22d1a91358dcd2b3bd482b2a2429786a93aac",
+    "f698799669450f98086779977f5b3b928a558964",
+    "066913f5560ed2192c4a5fd8158954d6692bb2a7",
+    "9b5f2443347de772a761948457aa46013ff53ad1",
+    "c79e6233824373d37db395ac2a3e167f36a302e4",
+    "e1d23e7f05ed5d811d170d7358f334baa00edfe6",
+    "5d34bb2b89086a1a1b17402b7483b92380696c21",
+    "1f0bd8199a386b3b333d4106fed6fad5d670259a"
+)
+foreach ($commit in $commits) {
+    Add-Content $outFile "git show --name-only $commit :: "
+    git --no-pager show --name-only $commit | Add-Content $outFile
+    Add-Content $outFile "`n"
+}
+clear 
+ 
+...
+ 
+clear
+ 
+cd C:\laragon\www\sgcpro\doc\txt
+ 
+clear
+ 
+git -c core.pager=cat log --since="2025-02-04" --until="2025-02-12" --patch > gitLab20250318_detalhes.txt
+ 
+clear
+ 
+ ...
+ 
+Ctr+q para sair
+ 

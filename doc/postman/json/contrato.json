@@ -1,0 +1,15 @@
+{
+    "id": "",
+    "velocidade_id": "{{velocidade_id}}",
+    "cadastro_empresa_id": "{{empresa_id}}",
+    "cadastro_cliente_id": "{{cliente_id}}",
+    "active": "{{active}}",
+    "sei": "{{sei}}",
+    "nome": "{{nome}}",
+    "data_inicio": "{{data_inicio}}",
+    "data_fim": "{{data_fim}}",
+    "created_by": "0",
+    "created_by_name": "unknown",
+    "updated_by": "0",
+    "updated_by_name": "unknown"
+}

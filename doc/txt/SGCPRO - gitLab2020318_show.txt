@@ -1,0 +1,2138 @@
+git show --name-only 745ba52bc2e1a0a1d84829c9a4f185783ed67beb :: 
+commit 745ba52bc2e1a0a1d84829c9a4f185783ed67beb
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Mon Mar 17 12:56:30 2025 -0300
+
+[SGC/PRO] - FEATURE - Commit para adicionar um novo recurso ou funcionalidade ao sistema.
+
+doc/comando_estrutura_v5.txt
+doc/comando_estrutura_v6.txt
+
+
+git show --name-only 3834463f38e6fd12509d4186274a7705a5b341ed :: 
+commit 3834463f38e6fd12509d4186274a7705a5b341ed
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 16 19:28:01 2025 -0300
+
+[SGC/PRO] - Update index.jsx
+
+src/public/script/react_modelo_v1/frontend/src/components/NavVertical/index.jsx
+
+
+git show --name-only dc482007071f87982e486e13fbff6a4e5b018379 :: 
+commit dc482007071f87982e486e13fbff6a4e5b018379
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 16 19:24:04 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+src/public/script/react_modelo_v1/frontend/src/components/NavHorizontal/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/NavVertical/index.jsx
+
+
+git show --name-only 4802cd6af24c200095398488549b19df96c9cc25 :: 
+commit 4802cd6af24c200095398488549b19df96c9cc25
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 16 19:17:26 2025 -0300
+
+[SGC/PRO] - STYLE - Mudancas que nao afetam o significado do codigo (espacos, formatacao, etc.).
+
+src/public/script/react_modelo_v1/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/components/NavVertical/styles.css
+
+
+git show --name-only 9ae6a367395d7b9c389ca2ae64fc5acc41246373 :: 
+commit 9ae6a367395d7b9c389ca2ae64fc5acc41246373
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 16 18:41:26 2025 -0300
+
+[SGC/PRO] - STYLE - Mudancas que nao afetam o significado do codigo (espacos, formatacao, etc.).
+
+doc/ia_codeigniter_46.txt
+doc/ia_fluxo_inicial.txt
+doc/ia_react.txt
+doc/node_js.txt
+src.lnk
+src/public/observer_react.php
+src/public/script/react_modelo_v1/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/AppBackmain.jsx
+src/public/script/react_modelo_v1/frontend/src/BackpApp.css
+src/public/script/react_modelo_v1/frontend/src/BackpApp.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Header/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Nav/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/NavHorizontal/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/NavVertical/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/NavVertical/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/About/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/index.js
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobranca/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contrato/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/AppListarConteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresa/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+src/public/script/react_modelo_v1/frontend/src/styles/global.css
+
+
+git show --name-only 763eb4c9ed98f79d09f72a3c0b6022eff48a249c :: 
+commit 763eb4c9ed98f79d09f72a3c0b6022eff48a249c
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sat Mar 15 21:13:21 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/node_js.txt
+src/public/observer_codeigniter.php
+src/public/observer_react.php
+src/public/script/react_modelo_v1/frontend/eslint.config.js
+src/public/script/react_modelo_v1/frontend/package-lock.json
+src/public/script/react_modelo_v1/frontend/package.json
+src/public/script/react_modelo_v1/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Header/styles.css
+src/public/script/react_modelo_v1/frontend/src/index.css
+src/public/script/react_modelo_v1/frontend/src/main.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/TesteSession/index.jsx
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+src/public/script/react_modelo_v1/frontend/src/styles/global.css
+src/public/script/react_modelo_v1/frontend/vite.config.js
+
+
+git show --name-only 669fc575b5bd5e3b1082285b87c44c4678f0d75b :: 
+commit 669fc575b5bd5e3b1082285b87c44c4678f0d75b
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sat Mar 15 18:56:11 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+.gitignore
+doc/desafio_intergracao.txt
+doc/node_js.txt
+src.lnk
+src/app/Config/Cookie.php
+src/app/Config/Cors.php
+src/app/Config/Filters.php
+src/app/Config/Routes.php
+src/app/Config/Security.php
+src/app/Config/Session.php
+src/app/Controllers/Auth/ApiController.php
+src/app/Controllers/Auth/DbController.php
+src/app/Controllers/Auth/EndPointController.php
+src/app/Controllers/Circuito/ApiController.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Filters/AuthFilter.php
+src/app/Filters/CorsFilter.php
+src/public/script/react_modelo_v1/frontend/package-lock.json
+src/public/script/react_modelo_v1/frontend/package.json
+src/public/script/react_modelo_v1/frontend/src/hooks/useApi.js
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/TesteSession/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/TesteSession/styles.css
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+src/public/script/react_modelo_v1/frontend/src/services/api.js
+src/public/script/react_modelo_v1/frontend/vite.config.js
+src/public/writable/debugbar/debugbar_1741982101.832485.json
+src/public/writable/debugbar/debugbar_1741982262.613910.json
+src/public/writable/debugbar/debugbar_1741982307.745652.json
+src/public/writable/debugbar/debugbar_1741982555.384853.json
+src/public/writable/debugbar/debugbar_1741982559.909142.json
+src/public/writable/debugbar/debugbar_1741982598.544555.json
+src/public/writable/debugbar/debugbar_1741982604.007986.json
+src/public/writable/debugbar/debugbar_1741983228.519592.json
+src/public/writable/debugbar/debugbar_1741983295.326004.json
+src/public/writable/debugbar/debugbar_1741983365.845525.json
+src/public/writable/debugbar/debugbar_1741983614.885628.json
+src/public/writable/debugbar/debugbar_1741983616.531866.json
+src/public/writable/debugbar/debugbar_1741983799.007995.json
+src/public/writable/debugbar/debugbar_1741983921.511712.json
+src/public/writable/debugbar/debugbar_1741984155.771846.json
+src/public/writable/debugbar/debugbar_1741984170.575237.json
+src/public/writable/debugbar/debugbar_1741984175.257688.json
+src/public/writable/debugbar/debugbar_1741984181.043632.json
+src/public/writable/debugbar/debugbar_1741984183.088298.json
+src/public/writable/debugbar/debugbar_1741984188.198296.json
+src/public/writable/debugbar/debugbar_1741984216.853476.json
+src/public/writable/session/ci_session01dd7e0a6113090e800ee73691ff0cad
+src/public/writable/session/ci_session0f809fa6a8b361ad34cb8e41886e39c8
+src/public/writable/session/ci_session15264c5087f4a8d508c1c4e5502495bc
+src/public/writable/session/ci_session1616203e4681e99df57ca8c5d7853918
+src/public/writable/session/ci_session20d363193608ffb1d8cb3b7ebb9714ec
+src/public/writable/session/ci_session234193bf649d77709fac1f4ad42d5af6
+src/public/writable/session/ci_session2976b8ed7711c98977457ba6773d51b9
+src/public/writable/session/ci_session5911622e7c67f3edfde890977946d86b
+src/public/writable/session/ci_session591e6602dc54a5c5e808073bdac64a3c
+src/public/writable/session/ci_session5f1842899dd713ab4e137df39c11e94f
+src/public/writable/session/ci_session6ae18c295885f2acce1e11dee15e3920
+src/public/writable/session/ci_session816537ba107d3207cf50acdeddd10b00
+src/public/writable/session/ci_session81c761db5a45b21525503dd48d9b41de
+src/public/writable/session/ci_session915bdaf2fe2437325886a05db0e2a46d
+src/public/writable/session/ci_session9b7bdb616cd137210bd5bc7ca65b6980
+src/public/writable/session/ci_sessionb2146a37bf8e8e9333611aaf6b4a5b46
+src/public/writable/session/ci_sessionba678e88929242730eff0d494b791c7a
+src/public/writable/session/ci_sessionccce67b081b4616fa9858f67e8e615a1
+src/public/writable/session/ci_sessiond319b2d61066de02e96ad4e994fad513
+src/public/writable/session/ci_sessiondd4bc5a1d45eecaca6c398e6c6877516
+src/public/writable/session/ci_sessiondec2657895bfeb3301f9a111d9aa358b
+src/public/writable/session/ci_sessionfe06557c4a529e42a35525884c401133
+
+
+git show --name-only 665bdcef828b4a42aaf6492481ffd815137d4e06 :: 
+commit 665bdcef828b4a42aaf6492481ffd815137d4e06
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sat Mar 15 11:21:47 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+src/app/Config/Cors.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Usuario/EndpointController.php
+src/public/observer.php
+src/public/script/react_modelo_v1/frontend/src/components/Auth/useSession.js
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/vite.config.js
+src/public/writable/debugbar/debugbar_1741987797.471942.json
+src/public/writable/debugbar/debugbar_1741987905.851827.json
+src/public/writable/debugbar/debugbar_1741988318.192037.json
+src/public/writable/debugbar/debugbar_1741988320.573673.json
+src/public/writable/debugbar/debugbar_1741989462.952842.json
+src/public/writable/debugbar/debugbar_1741989566.895422.json
+src/public/writable/debugbar/debugbar_1741989572.272184.json
+src/public/writable/debugbar/debugbar_1741989574.098279.json
+src/public/writable/debugbar/debugbar_1741989933.544202.json
+src/public/writable/debugbar/debugbar_1741989936.743914.json
+src/public/writable/debugbar/debugbar_1741989938.782908.json
+src/public/writable/debugbar/debugbar_1741989986.445674.json
+src/public/writable/debugbar/debugbar_1741990021.723998.json
+src/public/writable/debugbar/debugbar_1741990359.532190.json
+src/public/writable/json/45168ca628a0e4a3a5f9d28b1be21585.json
+src/public/writable/logs/log-2025-03-14.log
+src/public/writable/session/ci_session01dd7e0a6113090e800ee73691ff0cad
+src/public/writable/session/ci_session15264c5087f4a8d508c1c4e5502495bc
+src/public/writable/session/ci_session20d363193608ffb1d8cb3b7ebb9714ec
+src/public/writable/session/ci_session2976b8ed7711c98977457ba6773d51b9
+src/public/writable/session/ci_session591e6602dc54a5c5e808073bdac64a3c
+src/public/writable/session/ci_session5f1842899dd713ab4e137df39c11e94f
+src/public/writable/session/ci_session6ae18c295885f2acce1e11dee15e3920
+src/public/writable/session/ci_session816537ba107d3207cf50acdeddd10b00
+src/public/writable/session/ci_session81c761db5a45b21525503dd48d9b41de
+src/public/writable/session/ci_session915bdaf2fe2437325886a05db0e2a46d
+src/public/writable/session/ci_session9b7bdb616cd137210bd5bc7ca65b6980
+src/public/writable/session/ci_sessionb2146a37bf8e8e9333611aaf6b4a5b46
+src/public/writable/session/ci_sessionccce67b081b4616fa9858f67e8e615a1
+src/public/writable/session/ci_sessiond319b2d61066de02e96ad4e994fad513
+src/public/writable/session/ci_sessiondd4bc5a1d45eecaca6c398e6c6877516
+src/public/writable/session/ci_sessiondec2657895bfeb3301f9a111d9aa358b
+src/public/writable/session/ci_sessionfe06557c4a529e42a35525884c401133
+
+
+git show --name-only aa6c28a896c22749c89bb56937975bc9a9267410 :: 
+commit aa6c28a896c22749c89bb56937975bc9a9267410
+Merge: 9c5f720 d0ca9ea
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 17:32:59 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+
+
+git show --name-only 9c5f72013d7c0dd35247c6c317a96e45d2ee190d :: 
+commit 9c5f72013d7c0dd35247c6c317a96e45d2ee190d
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 17:32:55 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/node_js.txt
+src/app/Config/Paths.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Usuario/EndpointController.php
+src/public/observer.php
+src/public/script/react_modelo_v1/frontend/src/config/env.js
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/index.html
+src/public/script/react_modelo_v1/frontend/vite.config.js
+src/public/writable/.htaccess
+src/public/writable/cache/index.html
+src/public/writable/debugbar/debugbar_1741982101.832485.json
+src/public/writable/debugbar/debugbar_1741982262.613910.json
+src/public/writable/debugbar/debugbar_1741982307.745652.json
+src/public/writable/debugbar/debugbar_1741982555.384853.json
+src/public/writable/debugbar/debugbar_1741982559.909142.json
+src/public/writable/debugbar/debugbar_1741982598.544555.json
+src/public/writable/debugbar/debugbar_1741982604.007986.json
+src/public/writable/debugbar/debugbar_1741983228.519592.json
+src/public/writable/debugbar/debugbar_1741983295.326004.json
+src/public/writable/debugbar/debugbar_1741983365.845525.json
+src/public/writable/debugbar/debugbar_1741983614.885628.json
+src/public/writable/debugbar/debugbar_1741983616.531866.json
+src/public/writable/debugbar/debugbar_1741983799.007995.json
+src/public/writable/debugbar/debugbar_1741983921.511712.json
+src/public/writable/debugbar/debugbar_1741984155.771846.json
+src/public/writable/debugbar/debugbar_1741984170.575237.json
+src/public/writable/debugbar/debugbar_1741984175.257688.json
+src/public/writable/debugbar/debugbar_1741984181.043632.json
+src/public/writable/debugbar/debugbar_1741984183.088298.json
+src/public/writable/debugbar/debugbar_1741984188.198296.json
+src/public/writable/debugbar/debugbar_1741984216.853476.json
+src/public/writable/index.html
+src/public/writable/json/0d596dc75053839d6353d8a10ff100b5.json
+src/public/writable/json/44550789fc63d06f71034808ae1455f5.json
+src/public/writable/json/54d0bfe4a7a1526cb9856c262cfec69f.json
+src/public/writable/json/55154d5b6ffd8229cd6c6855146ff3c8.json
+src/public/writable/json/7ca1b54d1ecce5a14aac54f78c82c322.json
+src/public/writable/json/a361da4f7b9ac5f2a9110e261edb8755.json
+src/public/writable/json/c4cf253034f4fe2d7310056b685035e8.json
+src/public/writable/json/d60297f897459767ed3c2cfffdbb9a6c.json
+src/public/writable/json/f51b5388fdec9a6c847ea5e182c8f509.json
+src/public/writable/logs/index.html
+src/public/writable/logs/log-2025-03-14.log
+src/public/writable/session/ci_session0f809fa6a8b361ad34cb8e41886e39c8
+src/public/writable/session/ci_session1616203e4681e99df57ca8c5d7853918
+src/public/writable/session/ci_session234193bf649d77709fac1f4ad42d5af6
+src/public/writable/session/ci_session5911622e7c67f3edfde890977946d86b
+src/public/writable/session/ci_session5f1842899dd713ab4e137df39c11e94f
+src/public/writable/session/ci_sessionba678e88929242730eff0d494b791c7a
+src/public/writable/session/ci_sessiondd4bc5a1d45eecaca6c398e6c6877516
+src/public/writable/session/index.html
+src/public/writable/uploads/index.html
+
+
+git show --name-only d0ca9ea7a4cae8628f5c8447fb9c895a36b0486a :: 
+commit d0ca9ea7a4cae8628f5c8447fb9c895a36b0486a
+Author: Caio Nunes <caiomarinho@proderj.rj.gov.br>
+Date:   Fri Mar 14 16:32:12 2025 -0300
+
+[SGC/PRO] - STYLE - Mudan+�as que n+�o afetam o significado do c+�digo (espa+�os, formata+�+�o, etc.).
+
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Header/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/styles.css
+
+
+git show --name-only bdf4b5863ec6cc753c4616d2c11282affc8da033 :: 
+commit bdf4b5863ec6cc753c4616d2c11282affc8da033
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 16:09:05 2025 -0300
+
+[SGC/PRO] - CI - Commits do tipo ci indicam mudancas relacionadas a integracao continua (continuous integration).
+
+doc/node_js.txt
+src/app/Config/Cors.php
+src/app/Config/Filters.php
+src/app/Config/Routes.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Usuario/EndpointController.php
+src/app/Filters/CorsFilter.php
+src/public/.htaccess
+src/public/observer.php
+src/public/script/react_modelo_v1/frontend/src/config/env.js
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/services/api.js
+src/public/script/react_modelo_v1/frontend/vite.config.js
+src/public/teste.txt
+
+
+git show --name-only 82bca73f904a45fa1f4c646f5a051beea1ab5b02 :: 
+commit 82bca73f904a45fa1f4c646f5a051beea1ab5b02
+Merge: 20ad486 1698e3f
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 13:36:58 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only 20ad4867a2794ee5aec952ce2cfad1647b0c037c :: 
+commit 20ad4867a2794ee5aec952ce2cfad1647b0c037c
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 13:36:36 2025 -0300
+
+[SGC/PRO] - RAW - Commits to tipo raw indicam mudancas relacionadas a arquivos de configuracoes, dados, features, par+�metros.
+
+src/public/script/react_modelo_v1/frontend/src/config/env.js
+
+
+git show --name-only 1698e3fb92a6b23e7b436c9c5745edf3b95551dd :: 
+commit 1698e3fb92a6b23e7b436c9c5745edf3b95551dd
+Author: Caio Nunes <caiomarinho@proderj.rj.gov.br>
+Date:   Fri Mar 14 13:30:10 2025 -0300
+
+[SGC/PRO] - STYLE - Mudan+�as que n+�o afetam o significado do c+�digo (espa+�os, formata+�+�o, etc.).
+
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+
+
+git show --name-only 856357833b9a02a174801ee564d13ca35948d39d :: 
+commit 856357833b9a02a174801ee564d13ca35948d39d
+Author: Caio Nunes <caiomarinho@proderj.rj.gov.br>
+Date:   Fri Mar 14 12:23:34 2025 -0300
+
+[SGC/PRO] - STYLE - Mudan+�as que n+�o afetam o significado do c+�digo (espa+�os, formata+�+�o, etc.).
+
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+
+
+git show --name-only bc3934996211b5bfe8e8a36eb247055aad6bdf67 :: 
+commit bc3934996211b5bfe8e8a36eb247055aad6bdf67
+Merge: 198484d 8bbdc29
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Fri Mar 14 12:21:23 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only 198484dd5a8b9d699970675de542433da17a2dff :: 
+commit 198484dd5a8b9d699970675de542433da17a2dff
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Fri Mar 14 12:21:02 2025 -0300
+
+[SGC/PRO] - FEAT
+
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Header/styles.css
+
+
+git show --name-only 8bbdc298b125569d74408e106e9c5b60668fde00 :: 
+commit 8bbdc298b125569d74408e106e9c5b60668fde00
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 12:18:27 2025 -0300
+
+[SGC/PRO] - RAW - Commits to tipo raw indicam mudancas relacionadas a arquivos de configuracoes, dados, features, par+�metros.
+
+doc/node_js.txt
+src/public/observer.php
+src/public/script/index.html
+src/public/script/react_modelo_v1/frontend/src/config/env.js
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/index.html
+
+
+git show --name-only 9f7484be1c1beff88eab149cbd7348ffb3784d04 :: 
+commit 9f7484be1c1beff88eab149cbd7348ffb3784d04
+Merge: 987a184 655bd47
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 11:19:31 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only 987a1849f5a122aafb9eafdfed2eeec38c73d2dc :: 
+commit 987a1849f5a122aafb9eafdfed2eeec38c73d2dc
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 11:19:23 2025 -0300
+
+[SGC/PRO] - FIX - Corrige um bug.
+
+.gitignore
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+
+
+git show --name-only 655bd4746d4aba178fca85bca73132ef44bf8a83 :: 
+commit 655bd4746d4aba178fca85bca73132ef44bf8a83
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Fri Mar 14 10:25:29 2025 -0300
+
+[SGC/PRO] - Update package-lock.json
+
+src/public/script/react_modelo_v1/frontend/package-lock.json
+
+
+git show --name-only ad31aa6f8b6e1bad9034251b1af2d3be4b0293f8 :: 
+commit ad31aa6f8b6e1bad9034251b1af2d3be4b0293f8
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 10:22:09 2025 -0300
+
+[SGC/PRO] - STYLE - Mudancas que nao afetam o significado do codigo (espacos, formatacao, etc.).
+
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/contexts/ThemeContext.js
+src/public/script/react_modelo_v1/frontend/src/index.html
+src/public/script/react_modelo_v1/frontend/src/main.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/styles.css
+
+
+git show --name-only f0bc6721c3a7c31e16817bc23951d42976774c5d :: 
+commit f0bc6721c3a7c31e16817bc23951d42976774c5d
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 09:47:24 2025 -0300
+
+[SGC/PRO] - FIX - Corrige um bug.
+
+doc/node_js.txt
+src/public/script/react_modelo_v1/frontend/package-lock.json
+src/public/script/react_modelo_v1/frontend/package.json
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/frontend/.gitignore
+src/public/script/react_modelo_v1/frontend/src/frontend/README.md
+src/public/script/react_modelo_v1/frontend/src/frontend/eslint.config.js
+src/public/script/react_modelo_v1/frontend/src/frontend/index.html
+src/public/script/react_modelo_v1/frontend/src/frontend/package.json
+src/public/script/react_modelo_v1/frontend/src/frontend/public/vite.svg
+src/public/script/react_modelo_v1/frontend/src/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/frontend/src/assets/react.svg
+src/public/script/react_modelo_v1/frontend/src/frontend/src/index.css
+src/public/script/react_modelo_v1/frontend/src/frontend/src/main.jsx
+src/public/script/react_modelo_v1/frontend/src/frontend/vite.config.js
+src/public/script/react_modelo_v1/frontend/src/pages/AppAbout/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/AppAbout/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/AppHome/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/AppHome/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/styles.css
+src/public/script/react_modelo_v1/frontend/src/routes.jsx
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+src/writable/debugbar/debugbar_1740352952.747755.json
+src/writable/debugbar/debugbar_1740352955.425208.json
+src/writable/debugbar/debugbar_1740352958.316243.json
+src/writable/debugbar/debugbar_1740352960.848650.json
+src/writable/debugbar/debugbar_1740352963.319564.json
+src/writable/debugbar/debugbar_1740352966.020952.json
+src/writable/debugbar/debugbar_1740352968.512329.json
+src/writable/debugbar/debugbar_1740352970.950737.json
+src/writable/debugbar/debugbar_1740352973.456372.json
+src/writable/debugbar/debugbar_1740352977.312409.json
+src/writable/debugbar/debugbar_1740352982.317669.json
+src/writable/debugbar/debugbar_1740352984.926045.json
+src/writable/debugbar/debugbar_1740353117.599024.json
+src/writable/debugbar/debugbar_1740355341.300168.json
+src/writable/debugbar/debugbar_1740443630.647631.json
+src/writable/debugbar/debugbar_1740484518.890674.json
+src/writable/debugbar/debugbar_1740491547.198736.json
+
+
+git show --name-only 1fd9503bbf32b3b7ae6031febed53a8df5405fbb :: 
+commit 1fd9503bbf32b3b7ae6031febed53a8df5405fbb
+Merge: b7b4f70 68d3f71
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 08:37:50 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only b7b4f70c2e7541b0f359344a4c678838c9ae4012 :: 
+commit b7b4f70c2e7541b0f359344a4c678838c9ae4012
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 14 08:37:43 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/postman/docker/Circuitos.postman_collection.json
+doc/postman/laragon/Circuitos.postman_collection.json
+src/app/Controllers/Cobranca/DbController.php
+
+
+git show --name-only 68d3f71dc9dbd3c81b17a7587f259257e7d8869e :: 
+commit 68d3f71dc9dbd3c81b17a7587f259257e7d8869e
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Thu Mar 13 18:14:58 2025 -0300
+
+[SGC/PRO] - FEAT
+[SGC/PRO] - 
+[SGC/PRO] - Introduz um novo recurso ao projeto.
+
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppAtualizar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppConsultar.jsx
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+
+
+git show --name-only b1512cd178f2fd6f4dd2a867d789d5ac017f92f2 :: 
+commit b1512cd178f2fd6f4dd2a867d789d5ac017f92f2
+Merge: 8f32205 9b2a96a
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Thu Mar 13 15:44:29 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only 8f322054b94383b9d1a9fbf468ec50a972eb5f70 :: 
+commit 8f322054b94383b9d1a9fbf468ec50a972eb5f70
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Thu Mar 13 15:44:20 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/postman/json/cobrancas.json
+doc/postman/script/prestadora_id.js
+src/app/Config/Routes.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Usuario/DbController.php
+src/app/Controllers/Usuario/EndpointController.php
+src/app/Controllers/Velocidade/ApiController.php
+src/app/Controllers/Velocidade/DbController.php
+src/app/Models/VelocidadeModel.php
+src/public/script/react_modelo_v1/frontend/src/pages/Circuito/index.js
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+
+
+git show --name-only 9b2a96aebb274bb93db60888c48c996f5d48a606 :: 
+commit 9b2a96aebb274bb93db60888c48c996f5d48a606
+Author: Caio Nunes <caiomarinho@proderj.rj.gov.br>
+Date:   Thu Mar 13 14:36:35 2025 -0300
+
+[SGC/PRO] - RAW - Commits do tipo raw indicam mudan+�as relacionadas a arquivos de configura+�+�es, dados, features, par+�metros.
+
+package-lock.json
+package.json
+
+
+git show --name-only b2457a583ce61238367b71dabac32964ed030e9f :: 
+commit b2457a583ce61238367b71dabac32964ed030e9f
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Thu Mar 13 14:32:49 2025 -0300
+
+[SGC/PRO] - Create Links Contratados - PRODERJ_2.1.xls
+
+doc/planilha/Links Contratados - PRODERJ_2.1.xls
+
+
+git show --name-only 3a150c87d36a00f2815392ebc773f9aed1b8ae2e :: 
+commit 3a150c87d36a00f2815392ebc773f9aed1b8ae2e
+Author: Caio Nunes <caiomarinho@proderj.rj.gov.br>
+Date:   Thu Mar 13 10:31:04 2025 -0300
+
+[SGC/PRO] - RAW - Commits do tipo raw indicam mudan+�as relacionadas a arquivos de configura+�+�es, dados, features, par+�metros.
+
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Circuitos/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Secretaria/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Cobrancas/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contato_operadoras/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Contratos/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppCadastrar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppForm.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppListar.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/AppListar_conteudo.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Empresas/styles.css
+
+
+git show --name-only 82737efe0a588753a3153bba993a0a44743e6839 :: 
+commit 82737efe0a588753a3153bba993a0a44743e6839
+Merge: 9b1c1ae 410c354
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Thu Mar 13 10:15:52 2025 -0300
+
+[SGC/PRO] - Merge branch 'DEV' of http://10.11.62.153:8081/dss/sgcpro into DEV
+
+
+
+git show --name-only 9b1c1ae934a039f421596e7d3336aa7091817b41 :: 
+commit 9b1c1ae934a039f421596e7d3336aa7091817b41
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Thu Mar 13 10:15:43 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/postman/json/contrato.json
+doc/postman/script/sei.js
+doc/sql/ViewContratosCircuitosCadastroModel.sql
+src/app/Config/Routes.php
+src/app/Controllers/Contrato/ApiController.php
+src/app/Controllers/Contrato/DbController.php
+src/app/Models/ViewContratosCircuitosCadastroModel.php
+
+
+git show --name-only 410c35490d92c63e9027101f65b6ddb2ece06dc9 :: 
+commit 410c35490d92c63e9027101f65b6ddb2ece06dc9
+Author: Arthur Monteze <arthurmonteze2004@gmail.com>
+Date:   Wed Mar 12 11:09:19 2025 -0300
+
+[SGC/PRO] - FEAT
+
+src/public/script/react_modelo_v1/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/pages/About/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/About/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/Home/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/Home/styles.css
+src/public/script/react_modelo_v1/frontend/src/routes.jsx
+
+
+git show --name-only 345b9fdc5198b14e2b3da9507fb1109d607cee8b :: 
+commit 345b9fdc5198b14e2b3da9507fb1109d607cee8b
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Wed Mar 12 10:26:44 2025 -0300
+
+[SGC/PRO] - DOCS - Sem alteracoes apenas na documentacao.
+
+doc/sql/ViewEmailCadastroModel.sql
+doc/sql/ViewEnderecoCadastroModel.sql
+src/app/Models/TelefoneModel.php
+
+
+git show --name-only dc1fbeaef61b73ff1426e40245fc108b09df1df2 :: 
+commit dc1fbeaef61b73ff1426e40245fc108b09df1df2
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Tue Mar 11 20:10:46 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/postman/script/cnpj.js
+doc/postman/script/nome_empresa.js
+doc/sql/ViewCadastroSecretariaModel.sql
+doc/sql/ViewCadastroContatoModel.sql
+doc/sql/ViewCadastroEmpresaModel.sql
+doc/sql/ViewCadastroUsuarioModel.sql
+doc/sql/ViewCircuitoVelocidadeModel.sql
+doc/sql/ViewEmailCadastroModel.sql
+doc/sql/ViewEnderecoCadastroModel.sql
+doc/sql/ViewTelefoneCadastroModel.sql
+src/app/Controllers/Circuito/ApiController.php
+src/app/Controllers/Circuito/DbController.php
+src/app/Controllers/Contato/ApiController.php
+src/app/Controllers/Contato/DbController.php
+src/app/Controllers/Empresa/ApiController.php
+src/app/Models/BaseCrudModel.php
+src/app/Models/CircuitoModel.php
+src/app/Models/ViewCadastroContatoModel.php
+src/app/Models/ViewCircuitoVelocidadeModel.php
+
+
+git show --name-only 3ab13dafdbf03f6446eb2ac57bc4805666c6cc73 :: 
+commit 3ab13dafdbf03f6446eb2ac57bc4805666c6cc73
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Tue Mar 11 10:34:37 2025 -0300
+
+[SGC/PRO] -  CI - Commits do tipo ci indicam mudancas relacionadas a integracao continua (continuous integration).
+
+doc/postman/json/circuito.json
+doc/postman/script/cadastro_secretaria_id.js
+doc/postman/script/endereco_id.js
+doc/postman/script/nome_circuito.js
+doc/postman/script/sei.js
+doc/postman/script/sigla_nome.js
+
+
+git show --name-only 0db0f84bc86bd93a7fabf9e5c4e2a61e96edeab1 :: 
+commit 0db0f84bc86bd93a7fabf9e5c4e2a61e96edeab1
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Tue Mar 11 09:47:20 2025 -0300
+
+[SGC/PRO] - FEATURE - Commit para adicionar um novo recurso ou funcionalidade ao sistema.
+
+doc/postman/json/circuito.json
+doc/postman/script/random_cadastro_id.js
+doc/sql/ViewCircuitoVelocidadeModel.sql
+doc/sql/ViewEmailCadastro.sql
+doc/sql/ViewEnderecoCadastro.sql
+doc/sql/ViewTelefoneCadastro.sql
+src/app/Config/Routes.php
+src/app/Controllers/Circuito/ApiController.php
+src/app/Controllers/Circuito/DbController.php
+src/app/Controllers/Secretaria/ApiController.php
+src/app/Controllers/Cobranca/ApiController.php
+src/app/Controllers/Contato/ApiController.php
+src/app/Controllers/Contrato/ApiController.php
+src/app/Controllers/Email/ApiController.php
+src/app/Controllers/Email/DbController.php
+src/app/Controllers/Empresa/ApiController.php
+src/app/Controllers/Endereco/ApiController.php
+src/app/Controllers/Endereco/DbController.php
+src/app/Controllers/Telefone/ApiController.php
+src/app/Controllers/Telefone/DbController.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Velocidade/ApiController.php
+src/app/Models/ViewCircuitoVelocidadeModel.php
+src/app/Models/ViewEmailCadastroModel.php
+src/app/Models/ViewEnderecoCadastroModel.php
+src/app/Models/ViewTelefoneCadastroModel.php
+src/writable/session/ci_session0bcb961712a08d68f77d07dc87fd0cf5
+src/writable/session/ci_session4f79cf89732c640224623d2488bf3bec
+src/writable/session/ci_session5d383a2d28d95d0b1f64becfc23ccec3
+src/writable/session/ci_session5e271a23721e611a3fd13b062402de7b
+src/writable/session/ci_session701d80e1253d0a242ff6c918523bc43f
+src/writable/session/ci_session83cfc10e373d32d3110c5c0f14cd151e
+src/writable/session/ci_sessionbe1060403a9dba5c43b1bf630c9e33c8
+src/writable/session/ci_sessiond11371ae6a712c5dfb46649b32ddaa4c
+src/writable/session/ci_sessiond9a1a502181a52991d9de1fbbd8423d1
+
+
+git show --name-only bca5ecf92da59359d278751a911db00431af6646 :: 
+commit bca5ecf92da59359d278751a911db00431af6646
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 9 22:20:51 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/json/nome.json
+doc/json/orgao.json
+doc/postman/docker/Circuitos.postman_collection.json
+doc/postman/json/cadastro_secretaria.json
+doc/postman/json/cadastro_contato.json
+doc/postman/json/secretaria.json
+doc/postman/json/endereco.json
+doc/postman/laragon/Circuitos.postman_collection.json
+doc/postman/script/Y_N_90_N.js
+doc/postman/script/secretaria_contato.js
+doc/postman/script/secretaria_orgao.js
+doc/postman/script/complemento.js
+doc/postman/script/detalhe_endereco.js
+doc/postman/script/endereco_bairro_cep.js
+doc/postman/script/endereco_comercial.js
+doc/postman/script/lat_longe.js
+doc/postman/script/numero.js
+doc/postman/script/ponto_referencia.js
+doc/postman/script/sigla_pronome_tratamento.js
+doc/sql/ViewCadastroSecretariaModel.sql
+doc/sql/ViewCadastroContatoModel.sql
+doc/sql/ViewCadastroEmpresaModel.sql
+doc/sql/ViewCadastroUsuarioModel.sql
+src/app/Config/Routes.php
+src/app/Controllers/Contato/ApiController.php
+src/app/Controllers/Contato/DbController.php
+src/app/Controllers/Contato/EndpointController.php
+src/app/Controllers/Endereco/ApiController.php
+src/app/Controllers/Endereco/DbController.php
+src/app/Controllers/Endereco/EndpointController.php
+src/app/Controllers/Telefone/ApiController.php
+src/app/Controllers/Telefone/EndpointController.php
+src/app/Helpers/ContatoModel.php
+src/app/Models/ContatoModel.php
+src/app/Models/EnderecoModel.php
+src/app/Models/TelefoneModel.php
+src/app/Models/ViewCadastroContatoModel.php
+
+
+git show --name-only ef7d1d58473b40b37b3a5e67e152d49fc35c0f67 :: 
+commit ef7d1d58473b40b37b3a5e67e152d49fc35c0f67
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sun Mar 9 10:43:49 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/postman/json/email.json
+doc/postman/json/telefone.json
+doc/postman/script/tipo_email.js
+doc/postman/script/tipo_telefone.js
+src/app/Config/Routes.php
+src/app/Controllers/Email/ApiController.php
+src/app/Controllers/Email/DbController.php
+src/app/Controllers/Email/EndpointController.php
+src/app/Controllers/Telefone/ApiController.php
+src/app/Controllers/Telefone/DbController.php
+src/app/Controllers/Telefone/EndpointController.php
+src/app/Models/EmailModel.php
+src/app/Models/TelefoneModel.php
+
+
+git show --name-only 4a9cfbd1658ecaa38a0d56ad3efc6114d2e5421f :: 
+commit 4a9cfbd1658ecaa38a0d56ad3efc6114d2e5421f
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sat Mar 8 21:28:29 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/comandos.txt
+doc/postman/json/Usuario.json
+doc/postman/json/contato.json
+doc/postman/json/contatos_operadora.json
+doc/postman/json/user.json
+doc/postman/script/active.js
+doc/postman/script/cpf.js
+doc/postman/script/nome.js
+doc/postman/script/remember_token.js
+doc/postman/script/sigla_pronome_tratamento
+doc/sql/ViewCadastroSecretariaModel.sql
+doc/sql/ViewCadastroEmpresaModel.sql
+doc/sql/ViewCadastroUsuarioModel.sql
+docker-compose.yml
+src/app/Config/Constants.php
+src/app/Config/Database.php
+src/app/Config/Routes.php
+src/app/Controllers/Cadastro/ApiController.php
+src/app/Controllers/Cadastro/DbController.php
+src/app/Controllers/Cadastro/EndpointController.php
+src/app/Controllers/Secretaria/ApiController.php
+src/app/Controllers/Pattern/SystemUploadController.php
+src/app/Controllers/Pattern/SystemUploadDbController.php
+src/app/Controllers/Pattern/TokenCsrfController.php
+src/app/Models/BaseCrudModel.php
+src/app/Models/CadastroModel.php
+src/app/Models/CircuitoModel.php
+src/app/Models/SecretariaModel.php
+src/app/Models/CobrancasModel.php
+src/app/Models/ContatoModel.php
+src/app/Models/ContatosOperadorasModel.php
+src/app/Models/ContratoModel.php
+src/app/Models/EmpresaModel.php
+src/app/Models/UserModel.php
+src/app/Models/VelocidadeModel.php
+src/app/Models/ViewCadastroSecretariaModel.php
+src/app/Models/ViewCadastroEmpresaModel.php
+src/app/Models/ViewCadastroUsuarioModel.php
+src/app/Models/_ExemploModels.php
+
+
+git show --name-only eef1ecb367a83da581d311e2269286f471cdf94b :: 
+commit eef1ecb367a83da581d311e2269286f471cdf94b
+Author: Gustavo Hammes <gustavo.hammes@extreme.digital>
+Date:   Sat Mar 8 16:51:02 2025 -0300
+
+[SGC/PRO] - REFACTOR - Refatoracao de codigo que nao corrige um bug nem adiciona um recurso.
+
+doc/sql/ViewCadastroSecretariaModel.sql
+doc/sql/ViewCadastroEmpresaModel.sql
+doc/sql/ViewCadastroUsuarioModel.sql
+doc/sql/index.html
+doc/sql/views_versao_1/dumping.sql
+doc/sql/views_versao_1/dumping001.sql
+doc/sql/views_versao_1/dumping002.sql
+doc/sql/views_versao_1/view_circuitos.sql
+doc/sql/views_versao_1/view_secretaria_contato.sql
+doc/sql/views_versao_1/view_cobranca_circuito.sql
+doc/sql/views_versao_1/view_cobrancas.sql
+doc/sql/views_versao_1/view_contatos_operadoras_empresa.sql
+doc/sql/views_versao_1/view_contratos_velocidade.sql
+doc/sql/views_versao_1/view_empresa_contato.sql
+doc/sql/views_versao_1/view_setor_contato.sql
+doc/sql/views_versao_1/view_velocidade_completa.sql
+src/app/Config/Routes.php
+src/app/Controllers/Cadastro/ApiController.php
+src/app/Controllers/Cadastro/DbController.php
+src/app/Controllers/Cadastro/EndpointController.php
+src/app/Controllers/Secretaria/DbController.php
+src/app/Controllers/ContOperadora/ApiController.php
+src/app/Controllers/ContOperadora/DbController.php
+src/app/Controllers/ContOperadora/EndpointController.php
+src/app/Controllers/Contato/ApiController.php
+src/app/Controllers/Contato/EndpointController.php
+src/app/Controllers/Empresa/DbController.php
+src/app/Controllers/Setor/DbController.php
+src/app/Controllers/Usuario/ApiController.php
+src/app/Controllers/Usuario/DbController.php
+src/app/Controllers/Usuario/EndpointController.php
+src/app/Models/CadastroModel.php
+src/app/Models/ViewCadastroSecretariaModel.php
+src/app/Models/ViewCadastroEmpresaModel.php
+src/app/Models/ViewCadastroUsuarioModel.php
+src/app/Models/ViewSecretariaContatoModel.php
+src/app/Models/ViewContatosOperadorasEmpresaModel.php
+src/app/Models/ViewContratosVelocidadeModel.php
+src/app/Models/ViewEmpresaContatoModel.php
+src/app/Models/ViewSetorContatoModel.php
+src/app/Models/ViewVelocidadeCompletaModel.php
+
+
+git show --name-only 28ae6fc4659e5fd33a836f2e9869afb951ed6d25 :: 
+commit 28ae6fc4659e5fd33a836f2e9869afb951ed6d25
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 19:13:50 2025 -0300
+
+[SGC/PRO] - Update observer.php
+
+src/public/observer.php
+
+
+git show --name-only a4597fc9745684504c0d4239342f909f77fe14fd :: 
+commit a4597fc9745684504c0d4239342f909f77fe14fd
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 19:10:19 2025 -0300
+
+[SGC/PRO] - RAW - Commits to tipo raw indicam mudancas relacionadas a arquivos de configuracoes, dados, features, par+�metros.
+
+src/app/Config/Routes.php
+src/app/Controllers/Empresa/ApiController.php
+src/app/Controllers/Empresa/DbController.php
+src/app/Controllers/Empresa/EndpointController.php
+src/app/Controllers/Setor/ApiController.php
+src/app/Controllers/Setor/DbController.php
+src/app/Controllers/Setor/EndpointController.php
+src/app/Controllers/User/ApiController.php
+src/app/Controllers/User/DbController.php
+src/app/Controllers/User/EndpointController.php
+src/app/Controllers/Velocidade/ApiController.php
+src/app/Controllers/Velocidade/DbController.php
+src/app/Controllers/Velocidade/EndpointController.php
+
+
+git show --name-only dcb22d1a91358dcd2b3bd482b2a2429786a93aac :: 
+commit dcb22d1a91358dcd2b3bd482b2a2429786a93aac
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 18:52:30 2025 -0300
+
+[SGC/PRO] - RAW - Commits to tipo raw indicam mudancas relacionadas a arquivos de configuracoes, dados, features, par+�metros.
+
+.vscode/bookmarks.json
+src/app/Config/Routes.php
+src/app/Controllers/Circuito/ApiController.php
+src/app/Controllers/Circuito/DbController.php
+src/app/Controllers/Circuito/EndpointController.php
+src/app/Controllers/Secretaria/ApiController.php
+src/app/Controllers/Secretaria/DbController.php
+src/app/Controllers/Secretaria/EndpointController.php
+src/app/Controllers/Cobranca/ApiController.php
+src/app/Controllers/Cobranca/DbController.php
+src/app/Controllers/Cobranca/EndpointController.php
+src/app/Controllers/ContOperadora/ApiController.php
+src/app/Controllers/ContOperadora/DbController.php
+src/app/Controllers/ContOperadora/EndpointController.php
+src/app/Controllers/Contato/ApiController.php
+src/app/Controllers/Contato/DbController.php
+src/app/Controllers/Contato/EndpointController.php
+src/app/Controllers/ContatoEndpointController.php
+src/app/Controllers/Contrato/ApiController.php
+src/app/Controllers/Contrato/DbController.php
+src/app/Controllers/Contrato/EndpointController.php
+src/app/Controllers/ContratoEndpointController.php
+src/app/Controllers/EmpresaApiController.php
+src/app/Controllers/EmpresaDbController.php
+src/app/Controllers/EmpresaEndpointController.php
+src/app/Controllers/Pattern/SystemBaseController.php
+src/app/Controllers/Pattern/SystemMailController.php
+src/app/Controllers/Pattern/SystemMessageController.php
+src/app/Controllers/Pattern/SystemUploadController.php
+src/app/Controllers/Pattern/SystemUploadDbController.php
+src/app/Controllers/Pattern/TokenCsrfController.php
+src/app/Controllers/SetorApiController.php
+src/app/Controllers/SetorDbController.php
+src/app/Controllers/SetorEndpointController.php
+src/app/Controllers/UserApiController.php
+src/app/Controllers/UserDbController.php
+src/app/Controllers/UserEndpointController.php
+src/app/Controllers/VelocidadeApiController.php
+src/app/Controllers/VelocidadeDbController.php
+src/app/Controllers/VelocidadeEndpointController.php
+src/public/observer.php
+
+
+git show --name-only f698799669450f98086779977f5b3b928a558964 :: 
+commit f698799669450f98086779977f5b3b928a558964
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 14:39:24 2025 -0300
+
+[SGC/PRO] - Update README.md
+
+README.md
+
+
+git show --name-only 066913f5560ed2192c4a5fd8158954d6692bb2a7 :: 
+commit 066913f5560ed2192c4a5fd8158954d6692bb2a7
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 14:14:42 2025 -0300
+
+[SGC/PRO] - Update README.md
+
+README.md
+
+
+git show --name-only 9b5f2443347de772a761948457aa46013ff53ad1 :: 
+commit 9b5f2443347de772a761948457aa46013ff53ad1
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 13:38:00 2025 -0300
+
+[SGC/PRO] - DOCS - Sem alteracoes apenas na documentacao.
+
+README.md
+doc/comando_estrutura_v5.txt
+src/writable/debugbar/debugbar_1740352945.637059.json
+src/writable/debugbar/debugbar_1740352949.209511.json
+
+
+git show --name-only c79e6233824373d37db395ac2a3e167f36a302e4 :: 
+commit c79e6233824373d37db395ac2a3e167f36a302e4
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 13:20:43 2025 -0300
+
+[SGC/PRO] - RAW - Commits to tipo raw indicam mudancas relacionadas a arquivos de configuracoes, dados, features, par+�metros.
+
+.gitignore
+.vscode/bookmarks.json
+README.md
+doc/comando_estrutura_v4.txt
+doc/estrutura.txt
+doc/node_js.txt
+docker-compose.yml
+package-lock.json
+package.json
+src/public/observer.php
+src/public/script/react_modelo_v1/frontend/.gitignore
+src/public/script/react_modelo_v1/frontend/README.md
+src/public/script/react_modelo_v1/frontend/eslint.config.js
+src/public/script/react_modelo_v1/frontend/index.html
+src/public/script/react_modelo_v1/frontend/package-lock.json
+src/public/script/react_modelo_v1/frontend/package.json
+src/public/script/react_modelo_v1/frontend/public/vite.svg
+src/public/script/react_modelo_v1/frontend/src/App.css
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+src/public/script/react_modelo_v1/frontend/src/AppBackmain.jsx
+src/public/script/react_modelo_v1/frontend/src/BackpApp.css
+src/public/script/react_modelo_v1/frontend/src/BackpApp.jsx
+src/public/script/react_modelo_v1/frontend/src/assets/images/circuitosProderj.jpeg
+src/public/script/react_modelo_v1/frontend/src/assets/images/circuitosProderj2.jpeg
+src/public/script/react_modelo_v1/frontend/src/assets/images/govbr-logo-large.png
+src/public/script/react_modelo_v1/frontend/src/assets/images/logoProderj.png
+src/public/script/react_modelo_v1/frontend/src/assets/react.svg
+src/public/script/react_modelo_v1/frontend/src/components/Button/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Button/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Footer/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Footer/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Header/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Header/styles.css
+src/public/script/react_modelo_v1/frontend/src/components/Nav/index.jsx
+src/public/script/react_modelo_v1/frontend/src/components/Nav/styles.css
+src/public/script/react_modelo_v1/frontend/src/contexts/AuthContext.js
+src/public/script/react_modelo_v1/frontend/src/contexts/ThemeContext.js
+src/public/script/react_modelo_v1/frontend/src/hooks/useApi.js
+src/public/script/react_modelo_v1/frontend/src/hooks/useAuth.js
+src/public/script/react_modelo_v1/frontend/src/index.css
+src/public/script/react_modelo_v1/frontend/src/main.jsx
+src/public/script/react_modelo_v1/frontend/src/middlewares/authMiddleware.js
+src/public/script/react_modelo_v1/frontend/src/middlewares/errorHandlerMiddleware.js
+src/public/script/react_modelo_v1/frontend/src/middlewares/loggingMiddleware.js
+src/public/script/react_modelo_v1/frontend/src/pages/AppAbout/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/AppAbout/styles.css
+src/public/script/react_modelo_v1/frontend/src/pages/AppHome/index.jsx
+src/public/script/react_modelo_v1/frontend/src/pages/AppHome/styles.css
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+src/public/script/react_modelo_v1/frontend/src/services/api.js
+src/public/script/react_modelo_v1/frontend/src/services/auth.js
+src/public/script/react_modelo_v1/frontend/src/styles/global.css
+src/public/script/react_modelo_v1/frontend/src/utils/helpers.js
+src/public/script/react_modelo_v1/frontend/vite.config.js
+src/writable/debugbar/debugbar_1740352942.275064.json
+
+
+git show --name-only e1d23e7f05ed5d811d170d7358f334baa00edfe6 :: 
+commit e1d23e7f05ed5d811d170d7358f334baa00edfe6
+Author: Gustavo Hammes <sistema.gustavo@gmail.com>
+Date:   Fri Mar 7 09:17:46 2025 -0300
+
+[SGC/PRO] - NEW APP - Commit para a criacao de uma nova aplicacao ou projeto do zero.
+
+doc/Tecnologias.txt
+doc/codeigniter4.zip
+doc/comando_estrutura_v3.txt
+doc/comando_estrutura_v4.txt
+doc/comandos git.txt
+doc/comandos.txt
+doc/img/circuito1.png
+doc/img/circuito2.png
+doc/json/empresa.json
+doc/json/endereco.json
+doc/json/nome.json
+doc/json/setores.json
+doc/postman/Circuitos.postman_collection.json
+doc/postman/index.php
+doc/postman/json/circuito.json
+doc/postman/json/secretaria.json
+doc/postman/json/cobrancas.json
+doc/postman/json/contato.json
+doc/postman/json/contatos_operadora.json
+doc/postman/json/contrato.json
+doc/postman/json/empresa.json
+doc/postman/json/user.json
+doc/postman/json/velocidade.json
+doc/postman/script/active.js
+doc/postman/script/circuito_id.js
+doc/postman/script/contato_id.js
+doc/postman/script/cpf.js
+doc/postman/script/custo_mensal.js
+doc/postman/script/data_60_7.js
+doc/postman/script/data_60_7_circuito.js
+doc/postman/script/dia_cobrado.js
+doc/postman/script/email.js
+doc/postman/script/empresa_id.js
+doc/postman/script/endereco.js
+doc/postman/script/estoque_qtd.js
+doc/postman/script/link.js
+doc/postman/script/link_valor.js
+doc/postman/script/nome.js
+doc/postman/script/nome_circuito.js
+doc/postman/script/nome_empresa.js
+doc/postman/script/operadora_id.js
+doc/postman/script/orgao_id.js
+doc/postman/script/sei.js
+doc/postman/script/setor_id.js
+doc/postman/script/sigla_nome.js
+doc/postman/script/siglacircuito.js
+doc/postman/script/telefone.js
+doc/postman/script/tipo_servico.js
+doc/postman/script/velocidade_id.js
+doc/postman/script/velocidade_link.js
+doc/sql/dumping.sql
+doc/sql/dumping001.sql
+doc/sql/dumping002.sql
+doc/sql/view_circuitos.sql
+doc/sql/view_secretaria_contato.sql
+doc/sql/view_cobranca_circuito.sql
+doc/sql/view_cobrancas.sql
+doc/sql/view_contatos_operadoras_empresa.sql
+doc/sql/view_contratos_velocidade.sql
+doc/sql/view_empresa_contato.sql
+doc/sql/view_setor_contato.sql
+doc/sql/view_velocidade_completa.sql
+docker-compose.yml
+src/.env
+src/LICENSE
+src/README.md
+src/app/.htaccess
+src/app/Common.php
+src/app/Config/App.php
+src/app/Config/Autoload.php
+src/app/Config/Boot/development.php
+src/app/Config/Boot/production.php
+src/app/Config/Boot/testing.php
+src/app/Config/CURLRequest.php
+src/app/Config/Cache.php
+src/app/Config/Constants.php
+src/app/Config/ContentSecurityPolicy.php
+src/app/Config/Cookie.php
+src/app/Config/Cors.php
+src/app/Config/Database.php
+src/app/Config/DocTypes.php
+src/app/Config/Email.php
+src/app/Config/Encryption.php
+src/app/Config/Events.php
+src/app/Config/Exceptions.php
+src/app/Config/Feature.php
+src/app/Config/Filters.php
+src/app/Config/ForeignCharacters.php
+src/app/Config/Format.php
+src/app/Config/Generators.php
+src/app/Config/Honeypot.php
+src/app/Config/Images.php
+src/app/Config/Kint.php
+src/app/Config/Logger.php
+src/app/Config/Migrations.php
+src/app/Config/Mimes.php
+src/app/Config/Modules.php
+src/app/Config/Optimize.php
+src/app/Config/Pager.php
+src/app/Config/Paths.php
+src/app/Config/Publisher.php
+src/app/Config/Routes.php
+src/app/Config/Routing.php
+src/app/Config/Security.php
+src/app/Config/Services.php
+src/app/Config/Session.php
+src/app/Config/Toolbar.php
+src/app/Config/UserAgents.php
+src/app/Config/Validation.php
+src/app/Config/View.php
+src/app/Controllers/BaseController.php
+src/app/Controllers/CircuitoApiController.php
+src/app/Controllers/CircuitoDbController.php
+src/app/Controllers/CircuitoEndpointController.php
+src/app/Controllers/SecretariaApiController.php
+src/app/Controllers/SecretariaDbController.php
+src/app/Controllers/SecretariaEndpointController.php
+src/app/Controllers/CobrancaApiController.php
+src/app/Controllers/CobrancaDbController.php
+src/app/Controllers/CobrancaEndpointController.php
+src/app/Controllers/ContOperadoraApiController.php
+src/app/Controllers/ContOperadoraDbController.php
+src/app/Controllers/ContOperadoraEndpointController.php
+src/app/Controllers/ContatoApiController.php
+src/app/Controllers/ContatoDbController.php
+src/app/Controllers/ContatoEndpointController.php
+src/app/Controllers/ContratoApiController.php
+src/app/Controllers/ContratoDbController.php
+src/app/Controllers/ContratoEndpointController.php
+src/app/Controllers/EmpresaApiController.php
+src/app/Controllers/EmpresaDbController.php
+src/app/Controllers/EmpresaEndpointController.php
+src/app/Controllers/Home.php
+src/app/Controllers/SetorApiController.php
+src/app/Controllers/SetorDbController.php
+src/app/Controllers/SetorEndpointController.php
+src/app/Controllers/SystemBaseController.php
+src/app/Controllers/SystemMailController.php
+src/app/Controllers/SystemMessageController.php
+src/app/Controllers/SystemUploadController.php
+src/app/Controllers/SystemUploadDbController.php
+src/app/Controllers/TokenCsrfController.php
+src/app/Controllers/UserApiController.php
+src/app/Controllers/UserDbController.php
+src/app/Controllers/UserEndpointController.php
+src/app/Controllers/VelocidadeApiController.php
+src/app/Controllers/VelocidadeDbController.php
+src/app/Controllers/VelocidadeEndpointController.php
+src/app/Database/Migrations/.gitkeep
+src/app/Database/Seeds/.gitkeep
+src/app/Filters/.gitkeep
+src/app/Helpers/.gitkeep
+src/app/Helpers/myAnonimo_helper.php
+src/app/Helpers/myArray_helper.php
+src/app/Helpers/myCPFvalidation_helper.php
+src/app/Helpers/myCaptcha_helper.php
+src/app/Helpers/myChar_helper.php
+src/app/Helpers/myCookie_helper.php
+src/app/Helpers/myDate_helper.php
+src/app/Helpers/myEmulaSSO_helper.php
+src/app/Helpers/myEndPoint_helper.php
+src/app/Helpers/myFake_helper.php
+src/app/Helpers/myIcon_helper.php
+src/app/Helpers/myIdUFF_helper.php
+src/app/Helpers/myPrint_helper.php
+src/app/Helpers/myResolution_helper.php
+src/app/Helpers/myTerminalTraslation_helper.php
+src/app/Language/.gitkeep
+src/app/Language/en/Validation.php
+src/app/Libraries/.gitkeep
+src/app/Models/.gitkeep
+src/app/Models/BaseCrudModel.php
+src/app/Models/CircuitoModel.php
+src/app/Models/SecretariaModel.php
+src/app/Models/CobrancasModel.php
+src/app/Models/ContatoModel.php
+src/app/Models/ContatosOperadorasModel.php
+src/app/Models/ContratoModel.php
+src/app/Models/EmpresaModel.php
+src/app/Models/SetorModel.php
+src/app/Models/UserModel.php
+src/app/Models/VelocidadeModel.php
+src/app/Models/ViewCircuitosModel.php
+src/app/Models/ViewSecretariaContatoModel.php
+src/app/Models/ViewCobrancaCircuitoModel.php
+src/app/Models/ViewCobrancasModel.php
+src/app/Models/ViewContatosOperadorasEmpresaModel.php
+src/app/Models/ViewContratosVelocidadeModel.php
+src/app/Models/ViewEmpresaContatoModel.php
+src/app/Models/ViewSetorContatoModel.php
+src/app/Models/ViewVelocidadeCompletaModel.php
+src/app/Models/_ExemploModels.php
+src/app/ThirdParty/.gitkeep
+src/app/Views/errors/cli/error_404.php
+src/app/Views/errors/cli/error_exception.php
+src/app/Views/errors/cli/production.php
+src/app/Views/errors/html/debug.css
+src/app/Views/errors/html/debug.js
+src/app/Views/errors/html/error_400.php
+src/app/Views/errors/html/error_404.php
+src/app/Views/errors/html/error_exception.php
+src/app/Views/errors/html/production.php
+src/app/Views/welcome_message.php
+src/app/index.html
+src/composer.json
+src/env
+src/phpunit.xml.dist
+src/preload.php
+src/public/.htaccess
+src/public/favicon.ico
+src/public/index.php
+src/public/info.php
+src/public/observer.php
+src/public/robots.txt
+src/public/seguranca.php
+src/spark
+src/system/.htaccess
+src/system/API/ResponseTrait.php
+src/system/Autoloader/Autoloader.php
+src/system/Autoloader/FileLocator.php
+src/system/Autoloader/FileLocatorCached.php
+src/system/Autoloader/FileLocatorInterface.php
+src/system/BaseModel.php
+src/system/Boot.php
+src/system/CLI/BaseCommand.php
+src/system/CLI/CLI.php
+src/system/CLI/Commands.php
+src/system/CLI/Console.php
+src/system/CLI/Exceptions/CLIException.php
+src/system/CLI/GeneratorTrait.php
+src/system/CLI/InputOutput.php
+src/system/Cache/CacheFactory.php
+src/system/Cache/CacheInterface.php
+src/system/Cache/Exceptions/CacheException.php
+src/system/Cache/FactoriesCache.php
+src/system/Cache/FactoriesCache/FileVarExportHandler.php
+src/system/Cache/Handlers/BaseHandler.php
+src/system/Cache/Handlers/DummyHandler.php
+src/system/Cache/Handlers/FileHandler.php
+src/system/Cache/Handlers/MemcachedHandler.php
+src/system/Cache/Handlers/PredisHandler.php
+src/system/Cache/Handlers/RedisHandler.php
+src/system/Cache/Handlers/WincacheHandler.php
+src/system/Cache/ResponseCache.php
+src/system/CodeIgniter.php
+src/system/Commands/Cache/ClearCache.php
+src/system/Commands/Cache/InfoCache.php
+src/system/Commands/Database/CreateDatabase.php
+src/system/Commands/Database/Migrate.php
+src/system/Commands/Database/MigrateRefresh.php
+src/system/Commands/Database/MigrateRollback.php
+src/system/Commands/Database/MigrateStatus.php
+src/system/Commands/Database/Seed.php
+src/system/Commands/Database/ShowTableInfo.php
+src/system/Commands/Encryption/GenerateKey.php
+src/system/Commands/Generators/CellGenerator.php
+src/system/Commands/Generators/CommandGenerator.php
+src/system/Commands/Generators/ConfigGenerator.php
+src/system/Commands/Generators/ControllerGenerator.php
+src/system/Commands/Generators/EntityGenerator.php
+src/system/Commands/Generators/FilterGenerator.php
+src/system/Commands/Generators/MigrationGenerator.php
+src/system/Commands/Generators/ModelGenerator.php
+src/system/Commands/Generators/ScaffoldGenerator.php
+src/system/Commands/Generators/SeederGenerator.php
+src/system/Commands/Generators/TestGenerator.php
+src/system/Commands/Generators/ValidationGenerator.php
+src/system/Commands/Generators/Views/cell.tpl.php
+src/system/Commands/Generators/Views/cell_view.tpl.php
+src/system/Commands/Generators/Views/command.tpl.php
+src/system/Commands/Generators/Views/config.tpl.php
+src/system/Commands/Generators/Views/controller.tpl.php
+src/system/Commands/Generators/Views/entity.tpl.php
+src/system/Commands/Generators/Views/filter.tpl.php
+src/system/Commands/Generators/Views/migration.tpl.php
+src/system/Commands/Generators/Views/model.tpl.php
+src/system/Commands/Generators/Views/seeder.tpl.php
+src/system/Commands/Generators/Views/test.tpl.php
+src/system/Commands/Generators/Views/validation.tpl.php
+src/system/Commands/Help.php
+src/system/Commands/Housekeeping/ClearDebugbar.php
+src/system/Commands/Housekeeping/ClearLogs.php
+src/system/Commands/ListCommands.php
+src/system/Commands/Server/Serve.php
+src/system/Commands/Translation/LocalizationFinder.php
+src/system/Commands/Translation/LocalizationSync.php
+src/system/Commands/Utilities/ConfigCheck.php
+src/system/Commands/Utilities/Environment.php
+src/system/Commands/Utilities/FilterCheck.php
+src/system/Commands/Utilities/Namespaces.php
+src/system/Commands/Utilities/Optimize.php
+src/system/Commands/Utilities/PhpIniCheck.php
+src/system/Commands/Utilities/Publish.php
+src/system/Commands/Utilities/Routes.php
+src/system/Commands/Utilities/Routes/AutoRouteCollector.php
+src/system/Commands/Utilities/Routes/AutoRouterImproved/AutoRouteCollector.php
+src/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php
+src/system/Commands/Utilities/Routes/ControllerFinder.php
+src/system/Commands/Utilities/Routes/ControllerMethodReader.php
+src/system/Commands/Utilities/Routes/FilterCollector.php
+src/system/Commands/Utilities/Routes/FilterFinder.php
+src/system/Commands/Utilities/Routes/SampleURIGenerator.php
+src/system/Common.php
+src/system/ComposerScripts.php
+src/system/Config/AutoloadConfig.php
+src/system/Config/BaseConfig.php
+src/system/Config/BaseService.php
+src/system/Config/DotEnv.php
+src/system/Config/Factories.php
+src/system/Config/Factory.php
+src/system/Config/Filters.php
+src/system/Config/ForeignCharacters.php
+src/system/Config/Publisher.php
+src/system/Config/Routing.php
+src/system/Config/Services.php
+src/system/Config/View.php
+src/system/Controller.php
+src/system/Cookie/CloneableCookieInterface.php
+src/system/Cookie/Cookie.php
+src/system/Cookie/CookieInterface.php
+src/system/Cookie/CookieStore.php
+src/system/Cookie/Exceptions/CookieException.php
+src/system/DataCaster/Cast/ArrayCast.php
+src/system/DataCaster/Cast/BaseCast.php
+src/system/DataCaster/Cast/BooleanCast.php
+src/system/DataCaster/Cast/CSVCast.php
+src/system/DataCaster/Cast/CastInterface.php
+src/system/DataCaster/Cast/DatetimeCast.php
+src/system/DataCaster/Cast/FloatCast.php
+src/system/DataCaster/Cast/IntBoolCast.php
+src/system/DataCaster/Cast/IntegerCast.php
+src/system/DataCaster/Cast/JsonCast.php
+src/system/DataCaster/Cast/TimestampCast.php
+src/system/DataCaster/Cast/URICast.php
+src/system/DataCaster/DataCaster.php
+src/system/DataCaster/Exceptions/CastException.php
+src/system/DataConverter/DataConverter.php
+src/system/Database/BaseBuilder.php
+src/system/Database/BaseConnection.php
+src/system/Database/BasePreparedQuery.php
+src/system/Database/BaseResult.php
+src/system/Database/BaseUtils.php
+src/system/Database/Config.php
+src/system/Database/ConnectionInterface.php
+src/system/Database/Database.php
+src/system/Database/Exceptions/DataException.php
+src/system/Database/Exceptions/DatabaseException.php
+src/system/Database/Exceptions/ExceptionInterface.php
+src/system/Database/Forge.php
+src/system/Database/Migration.php
+src/system/Database/MigrationRunner.php
+src/system/Database/MySQLi/Builder.php
+src/system/Database/MySQLi/Connection.php
+src/system/Database/MySQLi/Forge.php
+src/system/Database/MySQLi/PreparedQuery.php
+src/system/Database/MySQLi/Result.php
+src/system/Database/MySQLi/Utils.php
+src/system/Database/OCI8/Builder.php
+src/system/Database/OCI8/Connection.php
+src/system/Database/OCI8/Forge.php
+src/system/Database/OCI8/PreparedQuery.php
+src/system/Database/OCI8/Result.php
+src/system/Database/OCI8/Utils.php
+src/system/Database/Postgre/Builder.php
+src/system/Database/Postgre/Connection.php
+src/system/Database/Postgre/Forge.php
+src/system/Database/Postgre/PreparedQuery.php
+src/system/Database/Postgre/Result.php
+src/system/Database/Postgre/Utils.php
+src/system/Database/PreparedQueryInterface.php
+src/system/Database/Query.php
+src/system/Database/QueryInterface.php
+src/system/Database/RawSql.php
+src/system/Database/ResultInterface.php
+src/system/Database/SQLSRV/Builder.php
+src/system/Database/SQLSRV/Connection.php
+src/system/Database/SQLSRV/Forge.php
+src/system/Database/SQLSRV/PreparedQuery.php
+src/system/Database/SQLSRV/Result.php
+src/system/Database/SQLSRV/Utils.php
+src/system/Database/SQLite3/Builder.php
+src/system/Database/SQLite3/Connection.php
+src/system/Database/SQLite3/Forge.php
+src/system/Database/SQLite3/PreparedQuery.php
+src/system/Database/SQLite3/Result.php
+src/system/Database/SQLite3/Table.php
+src/system/Database/SQLite3/Utils.php
+src/system/Database/Seeder.php
+src/system/Database/TableName.php
+src/system/Debug/BaseExceptionHandler.php
+src/system/Debug/ExceptionHandler.php
+src/system/Debug/ExceptionHandlerInterface.php
+src/system/Debug/Exceptions.php
+src/system/Debug/Iterator.php
+src/system/Debug/Timer.php
+src/system/Debug/Toolbar.php
+src/system/Debug/Toolbar/Collectors/BaseCollector.php
+src/system/Debug/Toolbar/Collectors/Config.php
+src/system/Debug/Toolbar/Collectors/Database.php
+src/system/Debug/Toolbar/Collectors/Events.php
+src/system/Debug/Toolbar/Collectors/Files.php
+src/system/Debug/Toolbar/Collectors/History.php
+src/system/Debug/Toolbar/Collectors/Logs.php
+src/system/Debug/Toolbar/Collectors/Routes.php
+src/system/Debug/Toolbar/Collectors/Timers.php
+src/system/Debug/Toolbar/Collectors/Views.php
+src/system/Debug/Toolbar/Views/_config.tpl
+src/system/Debug/Toolbar/Views/_database.tpl
+src/system/Debug/Toolbar/Views/_events.tpl
+src/system/Debug/Toolbar/Views/_files.tpl
+src/system/Debug/Toolbar/Views/_history.tpl
+src/system/Debug/Toolbar/Views/_logs.tpl
+src/system/Debug/Toolbar/Views/_routes.tpl
+src/system/Debug/Toolbar/Views/toolbar.css
+src/system/Debug/Toolbar/Views/toolbar.js
+src/system/Debug/Toolbar/Views/toolbar.tpl.php
+src/system/Debug/Toolbar/Views/toolbarloader.js
+src/system/Email/Email.php
+src/system/Encryption/EncrypterInterface.php
+src/system/Encryption/Encryption.php
+src/system/Encryption/Exceptions/EncryptionException.php
+src/system/Encryption/Handlers/BaseHandler.php
+src/system/Encryption/Handlers/OpenSSLHandler.php
+src/system/Encryption/Handlers/SodiumHandler.php
+src/system/Entity/Cast/ArrayCast.php
+src/system/Entity/Cast/BaseCast.php
+src/system/Entity/Cast/BooleanCast.php
+src/system/Entity/Cast/CSVCast.php
+src/system/Entity/Cast/CastInterface.php
+src/system/Entity/Cast/DatetimeCast.php
+src/system/Entity/Cast/FloatCast.php
+src/system/Entity/Cast/IntBoolCast.php
+src/system/Entity/Cast/IntegerCast.php
+src/system/Entity/Cast/JsonCast.php
+src/system/Entity/Cast/ObjectCast.php
+src/system/Entity/Cast/StringCast.php
+src/system/Entity/Cast/TimestampCast.php
+src/system/Entity/Cast/URICast.php
+src/system/Entity/Entity.php
+src/system/Entity/Exceptions/CastException.php
+src/system/Events/Events.php
+src/system/Exceptions/BadFunctionCallException.php
+src/system/Exceptions/BadMethodCallException.php
+src/system/Exceptions/ConfigException.php
+src/system/Exceptions/CriticalError.php
+src/system/Exceptions/DebugTraceableTrait.php
+src/system/Exceptions/DownloadException.php
+src/system/Exceptions/ExceptionInterface.php
+src/system/Exceptions/FrameworkException.php
+src/system/Exceptions/HTTPExceptionInterface.php
+src/system/Exceptions/HasExitCodeInterface.php
+src/system/Exceptions/InvalidArgumentException.php
+src/system/Exceptions/LogicException.php
+src/system/Exceptions/ModelException.php
+src/system/Exceptions/PageNotFoundException.php
+src/system/Exceptions/RuntimeException.php
+src/system/Exceptions/TestException.php
+src/system/Files/Exceptions/ExceptionInterface.php
+src/system/Files/Exceptions/FileException.php
+src/system/Files/Exceptions/FileNotFoundException.php
+src/system/Files/File.php
+src/system/Files/FileCollection.php
+src/system/Files/FileSizeUnit.php
+src/system/Filters/CSRF.php
+src/system/Filters/Cors.php
+src/system/Filters/DebugToolbar.php
+src/system/Filters/Exceptions/FilterException.php
+src/system/Filters/FilterInterface.php
+src/system/Filters/Filters.php
+src/system/Filters/ForceHTTPS.php
+src/system/Filters/Honeypot.php
+src/system/Filters/InvalidChars.php
+src/system/Filters/PageCache.php
+src/system/Filters/PerformanceMetrics.php
+src/system/Filters/SecureHeaders.php
+src/system/Format/Exceptions/FormatException.php
+src/system/Format/Format.php
+src/system/Format/FormatterInterface.php
+src/system/Format/JSONFormatter.php
+src/system/Format/XMLFormatter.php
+src/system/HTTP/CLIRequest.php
+src/system/HTTP/CURLRequest.php
+src/system/HTTP/ContentSecurityPolicy.php
+src/system/HTTP/Cors.php
+src/system/HTTP/DownloadResponse.php
+src/system/HTTP/Exceptions/BadRequestException.php
+src/system/HTTP/Exceptions/ExceptionInterface.php
+src/system/HTTP/Exceptions/HTTPException.php
+src/system/HTTP/Exceptions/RedirectException.php
+src/system/HTTP/Files/FileCollection.php
+src/system/HTTP/Files/UploadedFile.php
+src/system/HTTP/Files/UploadedFileInterface.php
+src/system/HTTP/Header.php
+src/system/HTTP/IncomingRequest.php
+src/system/HTTP/Message.php
+src/system/HTTP/MessageInterface.php
+src/system/HTTP/MessageTrait.php
+src/system/HTTP/Method.php
+src/system/HTTP/Negotiate.php
+src/system/HTTP/OutgoingRequest.php
+src/system/HTTP/OutgoingRequestInterface.php
+src/system/HTTP/RedirectResponse.php
+src/system/HTTP/Request.php
+src/system/HTTP/RequestInterface.php
+src/system/HTTP/RequestTrait.php
+src/system/HTTP/ResponsableInterface.php
+src/system/HTTP/Response.php
+src/system/HTTP/ResponseInterface.php
+src/system/HTTP/ResponseTrait.php
+src/system/HTTP/SiteURI.php
+src/system/HTTP/SiteURIFactory.php
+src/system/HTTP/URI.php
+src/system/HTTP/UserAgent.php
+src/system/Helpers/Array/ArrayHelper.php
+src/system/Helpers/array_helper.php
+src/system/Helpers/cookie_helper.php
+src/system/Helpers/date_helper.php
+src/system/Helpers/filesystem_helper.php
+src/system/Helpers/form_helper.php
+src/system/Helpers/html_helper.php
+src/system/Helpers/inflector_helper.php
+src/system/Helpers/kint_helper.php
+src/system/Helpers/number_helper.php
+src/system/Helpers/security_helper.php
+src/system/Helpers/test_helper.php
+src/system/Helpers/text_helper.php
+src/system/Helpers/url_helper.php
+src/system/Helpers/xml_helper.php
+src/system/Honeypot/Exceptions/HoneypotException.php
+src/system/Honeypot/Honeypot.php
+src/system/HotReloader/DirectoryHasher.php
+src/system/HotReloader/HotReloader.php
+src/system/HotReloader/IteratorFilter.php
+src/system/I18n/Exceptions/I18nException.php
+src/system/I18n/Time.php
+src/system/I18n/TimeDifference.php
+src/system/I18n/TimeLegacy.php
+src/system/I18n/TimeTrait.php
+src/system/Images/Exceptions/ImageException.php
+src/system/Images/Handlers/BaseHandler.php
+src/system/Images/Handlers/GDHandler.php
+src/system/Images/Handlers/ImageMagickHandler.php
+src/system/Images/Image.php
+src/system/Images/ImageHandlerInterface.php
+src/system/Language/Language.php
+src/system/Language/en/CLI.php
+src/system/Language/en/Cache.php
+src/system/Language/en/Cast.php
+src/system/Language/en/Cookie.php
+src/system/Language/en/Core.php
+src/system/Language/en/Database.php
+src/system/Language/en/Email.php
+src/system/Language/en/Encryption.php
+src/system/Language/en/Errors.php
+src/system/Language/en/Fabricator.php
+src/system/Language/en/Files.php
+src/system/Language/en/Filters.php
+src/system/Language/en/Format.php
+src/system/Language/en/HTTP.php
+src/system/Language/en/Images.php
+src/system/Language/en/Language.php
+src/system/Language/en/Log.php
+src/system/Language/en/Migrations.php
+src/system/Language/en/Number.php
+src/system/Language/en/Pager.php
+src/system/Language/en/Publisher.php
+src/system/Language/en/RESTful.php
+src/system/Language/en/Router.php
+src/system/Language/en/Security.php
+src/system/Language/en/Session.php
+src/system/Language/en/Test.php
+src/system/Language/en/Time.php
+src/system/Language/en/Validation.php
+src/system/Language/en/View.php
+src/system/Log/Exceptions/LogException.php
+src/system/Log/Handlers/BaseHandler.php
+src/system/Log/Handlers/ChromeLoggerHandler.php
+src/system/Log/Handlers/ErrorlogHandler.php
+src/system/Log/Handlers/FileHandler.php
+src/system/Log/Handlers/HandlerInterface.php
+src/system/Log/Logger.php
+src/system/Model.php
+src/system/Modules/Modules.php
+src/system/Pager/Exceptions/PagerException.php
+src/system/Pager/Pager.php
+src/system/Pager/PagerInterface.php
+src/system/Pager/PagerRenderer.php
+src/system/Pager/Views/default_full.php
+src/system/Pager/Views/default_head.php
+src/system/Pager/Views/default_simple.php
+src/system/Publisher/ContentReplacer.php
+src/system/Publisher/Exceptions/PublisherException.php
+src/system/Publisher/Publisher.php
+src/system/RESTful/BaseResource.php
+src/system/RESTful/ResourceController.php
+src/system/RESTful/ResourcePresenter.php
+src/system/Router/AutoRouter.php
+src/system/Router/AutoRouterImproved.php
+src/system/Router/AutoRouterInterface.php
+src/system/Router/DefinedRouteCollector.php
+src/system/Router/Exceptions/ExceptionInterface.php
+src/system/Router/Exceptions/MethodNotFoundException.php
+src/system/Router/Exceptions/RouterException.php
+src/system/Router/RouteCollection.php
+src/system/Router/RouteCollectionInterface.php
+src/system/Router/Router.php
+src/system/Router/RouterInterface.php
+src/system/Security/CheckPhpIni.php
+src/system/Security/Exceptions/SecurityException.php
+src/system/Security/Security.php
+src/system/Security/SecurityInterface.php
+src/system/Session/Exceptions/SessionException.php
+src/system/Session/Handlers/ArrayHandler.php
+src/system/Session/Handlers/BaseHandler.php
+src/system/Session/Handlers/Database/MySQLiHandler.php
+src/system/Session/Handlers/Database/PostgreHandler.php
+src/system/Session/Handlers/DatabaseHandler.php
+src/system/Session/Handlers/FileHandler.php
+src/system/Session/Handlers/MemcachedHandler.php
+src/system/Session/Handlers/RedisHandler.php
+src/system/Session/Session.php
+src/system/Session/SessionInterface.php
+src/system/Superglobals.php
+src/system/Test/CIUnitTestCase.php
+src/system/Test/ConfigFromArrayTrait.php
+src/system/Test/Constraints/SeeInDatabase.php
+src/system/Test/ControllerTestTrait.php
+src/system/Test/DOMParser.php
+src/system/Test/DatabaseTestTrait.php
+src/system/Test/Fabricator.php
+src/system/Test/FeatureTestTrait.php
+src/system/Test/FilterTestTrait.php
+src/system/Test/Filters/CITestStreamFilter.php
+src/system/Test/IniTestTrait.php
+src/system/Test/Interfaces/FabricatorModel.php
+src/system/Test/Mock/MockAppConfig.php
+src/system/Test/Mock/MockAutoload.php
+src/system/Test/Mock/MockBuilder.php
+src/system/Test/Mock/MockCLIConfig.php
+src/system/Test/Mock/MockCURLRequest.php
+src/system/Test/Mock/MockCache.php
+src/system/Test/Mock/MockCodeIgniter.php
+src/system/Test/Mock/MockCommon.php
+src/system/Test/Mock/MockConnection.php
+src/system/Test/Mock/MockEmail.php
+src/system/Test/Mock/MockEvents.php
+src/system/Test/Mock/MockFileLogger.php
+src/system/Test/Mock/MockIncomingRequest.php
+src/system/Test/Mock/MockInputOutput.php
+src/system/Test/Mock/MockLanguage.php
+src/system/Test/Mock/MockLogger.php
+src/system/Test/Mock/MockQuery.php
+src/system/Test/Mock/MockResourceController.php
+src/system/Test/Mock/MockResourcePresenter.php
+src/system/Test/Mock/MockResponse.php
+src/system/Test/Mock/MockResult.php
+src/system/Test/Mock/MockSecurity.php
+src/system/Test/Mock/MockServices.php
+src/system/Test/Mock/MockSession.php
+src/system/Test/Mock/MockTable.php
+src/system/Test/PhpStreamWrapper.php
+src/system/Test/ReflectionHelper.php
+src/system/Test/StreamFilterTrait.php
+src/system/Test/TestLogger.php
+src/system/Test/TestResponse.php
+src/system/Test/bootstrap.php
+src/system/ThirdParty/Escaper/Escaper.php
+src/system/ThirdParty/Escaper/Exception/ExceptionInterface.php
+src/system/ThirdParty/Escaper/Exception/InvalidArgumentException.php
+src/system/ThirdParty/Escaper/Exception/RuntimeException.php
+src/system/ThirdParty/Escaper/LICENSE.md
+src/system/ThirdParty/Kint/CallFinder.php
+src/system/ThirdParty/Kint/FacadeInterface.php
+src/system/ThirdParty/Kint/Kint.php
+src/system/ThirdParty/Kint/LICENSE
+src/system/ThirdParty/Kint/Parser/AbstractPlugin.php
+src/system/ThirdParty/Kint/Parser/ArrayLimitPlugin.php
+src/system/ThirdParty/Kint/Parser/ArrayObjectPlugin.php
+src/system/ThirdParty/Kint/Parser/Base64Plugin.php
+src/system/ThirdParty/Kint/Parser/BinaryPlugin.php
+src/system/ThirdParty/Kint/Parser/BlacklistPlugin.php
+src/system/ThirdParty/Kint/Parser/ClassHooksPlugin.php
+src/system/ThirdParty/Kint/Parser/ClassMethodsPlugin.php
+src/system/ThirdParty/Kint/Parser/ClassStaticsPlugin.php
+src/system/ThirdParty/Kint/Parser/ClassStringsPlugin.php
+src/system/ThirdParty/Kint/Parser/ClosurePlugin.php
+src/system/ThirdParty/Kint/Parser/ColorPlugin.php
+src/system/ThirdParty/Kint/Parser/ConstructablePluginInterface.php
+src/system/ThirdParty/Kint/Parser/DateTimePlugin.php
+src/system/ThirdParty/Kint/Parser/DomPlugin.php
+src/system/ThirdParty/Kint/Parser/EnumPlugin.php
+src/system/ThirdParty/Kint/Parser/FsPathPlugin.php
+src/system/ThirdParty/Kint/Parser/HtmlPlugin.php
+src/system/ThirdParty/Kint/Parser/IteratorPlugin.php
+src/system/ThirdParty/Kint/Parser/JsonPlugin.php
+src/system/ThirdParty/Kint/Parser/MicrotimePlugin.php
+src/system/ThirdParty/Kint/Parser/MysqliPlugin.php
+src/system/ThirdParty/Kint/Parser/Parser.php
+src/system/ThirdParty/Kint/Parser/PluginBeginInterface.php
+src/system/ThirdParty/Kint/Parser/PluginCompleteInterface.php
+src/system/ThirdParty/Kint/Parser/PluginInterface.php
+src/system/ThirdParty/Kint/Parser/ProfilePlugin.php
+src/system/ThirdParty/Kint/Parser/ProxyPlugin.php
+src/system/ThirdParty/Kint/Parser/SerializePlugin.php
+src/system/ThirdParty/Kint/Parser/SimpleXMLElementPlugin.php
+src/system/ThirdParty/Kint/Parser/SplFileInfoPlugin.php
+src/system/ThirdParty/Kint/Parser/StreamPlugin.php
+src/system/ThirdParty/Kint/Parser/TablePlugin.php
+src/system/ThirdParty/Kint/Parser/ThrowablePlugin.php
+src/system/ThirdParty/Kint/Parser/TimestampPlugin.php
+src/system/ThirdParty/Kint/Parser/ToStringPlugin.php
+src/system/ThirdParty/Kint/Parser/TracePlugin.php
+src/system/ThirdParty/Kint/Parser/XmlPlugin.php
+src/system/ThirdParty/Kint/Renderer/AbstractRenderer.php
+src/system/ThirdParty/Kint/Renderer/AssetRendererTrait.php
+src/system/ThirdParty/Kint/Renderer/CliRenderer.php
+src/system/ThirdParty/Kint/Renderer/ConstructableRendererInterface.php
+src/system/ThirdParty/Kint/Renderer/PlainRenderer.php
+src/system/ThirdParty/Kint/Renderer/RendererInterface.php
+src/system/ThirdParty/Kint/Renderer/Rich/AbstractPlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/BinaryPlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/CallableDefinitionPlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/CallablePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/ColorPlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/LockPlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/MicrotimePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/PluginInterface.php
+src/system/ThirdParty/Kint/Renderer/Rich/ProfilePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/SourcePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/TabPluginInterface.php
+src/system/ThirdParty/Kint/Renderer/Rich/TablePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/TraceFramePlugin.php
+src/system/ThirdParty/Kint/Renderer/Rich/ValuePluginInterface.php
+src/system/ThirdParty/Kint/Renderer/RichRenderer.php
+src/system/ThirdParty/Kint/Renderer/Text/AbstractPlugin.php
+src/system/ThirdParty/Kint/Renderer/Text/LockPlugin.php
+src/system/ThirdParty/Kint/Renderer/Text/MicrotimePlugin.php
+src/system/ThirdParty/Kint/Renderer/Text/PluginInterface.php
+src/system/ThirdParty/Kint/Renderer/Text/SplFileInfoPlugin.php
+src/system/ThirdParty/Kint/Renderer/Text/TracePlugin.php
+src/system/ThirdParty/Kint/Renderer/TextRenderer.php
+src/system/ThirdParty/Kint/Utils.php
+src/system/ThirdParty/Kint/Value/AbstractValue.php
+src/system/ThirdParty/Kint/Value/ArrayValue.php
+src/system/ThirdParty/Kint/Value/ClosedResourceValue.php
+src/system/ThirdParty/Kint/Value/ClosureValue.php
+src/system/ThirdParty/Kint/Value/ColorValue.php
+src/system/ThirdParty/Kint/Value/Context/ArrayContext.php
+src/system/ThirdParty/Kint/Value/Context/BaseContext.php
+src/system/ThirdParty/Kint/Value/Context/ClassConstContext.php
+src/system/ThirdParty/Kint/Value/Context/ClassDeclaredContext.php
+src/system/ThirdParty/Kint/Value/Context/ClassOwnedContext.php
+src/system/ThirdParty/Kint/Value/Context/ContextInterface.php
+src/system/ThirdParty/Kint/Value/Context/DoubleAccessMemberContext.php
+src/system/ThirdParty/Kint/Value/Context/MethodContext.php
+src/system/ThirdParty/Kint/Value/Context/PropertyContext.php
+src/system/ThirdParty/Kint/Value/Context/StaticPropertyContext.php
+src/system/ThirdParty/Kint/Value/DateTimeValue.php
+src/system/ThirdParty/Kint/Value/DeclaredCallableBag.php
+src/system/ThirdParty/Kint/Value/DomNodeListValue.php
+src/system/ThirdParty/Kint/Value/DomNodeValue.php
+src/system/ThirdParty/Kint/Value/EnumValue.php
+src/system/ThirdParty/Kint/Value/FixedWidthValue.php
+src/system/ThirdParty/Kint/Value/FunctionValue.php
+src/system/ThirdParty/Kint/Value/InstanceValue.php
+src/system/ThirdParty/Kint/Value/MethodValue.php
+src/system/ThirdParty/Kint/Value/MicrotimeValue.php
+src/system/ThirdParty/Kint/Value/ParameterBag.php
+src/system/ThirdParty/Kint/Value/ParameterHoldingTrait.php
+src/system/ThirdParty/Kint/Value/Representation/AbstractRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/BinaryRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/CallableDefinitionRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/ColorRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/ContainerRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/MicrotimeRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/ProfileRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/RepresentationInterface.php
+src/system/ThirdParty/Kint/Value/Representation/SourceRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/SplFileInfoRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/StringRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/TableRepresentation.php
+src/system/ThirdParty/Kint/Value/Representation/ValueRepresentation.php
+src/system/ThirdParty/Kint/Value/ResourceValue.php
+src/system/ThirdParty/Kint/Value/SimpleXMLElementValue.php
+src/system/ThirdParty/Kint/Value/SplFileInfoValue.php
+src/system/ThirdParty/Kint/Value/StreamValue.php
+src/system/ThirdParty/Kint/Value/StringValue.php
+src/system/ThirdParty/Kint/Value/ThrowableValue.php
+src/system/ThirdParty/Kint/Value/TraceFrameValue.php
+src/system/ThirdParty/Kint/Value/TraceValue.php
+src/system/ThirdParty/Kint/Value/UninitializedValue.php
+src/system/ThirdParty/Kint/Value/UnknownValue.php
+src/system/ThirdParty/Kint/Value/VirtualValue.php
+src/system/ThirdParty/Kint/init.php
+src/system/ThirdParty/Kint/init_helpers.php
+src/system/ThirdParty/Kint/resources/compiled/aante-dark.css
+src/system/ThirdParty/Kint/resources/compiled/aante-light.css
+src/system/ThirdParty/Kint/resources/compiled/main.js
+src/system/ThirdParty/Kint/resources/compiled/original.css
+src/system/ThirdParty/Kint/resources/compiled/plain.css
+src/system/ThirdParty/Kint/resources/compiled/solarized-dark.css
+src/system/ThirdParty/Kint/resources/compiled/solarized.css
+src/system/ThirdParty/PSR/Log/AbstractLogger.php
+src/system/ThirdParty/PSR/Log/InvalidArgumentException.php
+src/system/ThirdParty/PSR/Log/LICENSE
+src/system/ThirdParty/PSR/Log/LogLevel.php
+src/system/ThirdParty/PSR/Log/LoggerAwareInterface.php
+src/system/ThirdParty/PSR/Log/LoggerAwareTrait.php
+src/system/ThirdParty/PSR/Log/LoggerInterface.php
+src/system/ThirdParty/PSR/Log/LoggerTrait.php
+src/system/ThirdParty/PSR/Log/NullLogger.php
+src/system/Throttle/Throttler.php
+src/system/Throttle/ThrottlerInterface.php
+src/system/Traits/ConditionalTrait.php
+src/system/Traits/PropertiesTrait.php
+src/system/Typography/Typography.php
+src/system/Validation/CreditCardRules.php
+src/system/Validation/DotArrayFilter.php
+src/system/Validation/Exceptions/ValidationException.php
+src/system/Validation/FileRules.php
+src/system/Validation/FormatRules.php
+src/system/Validation/Rules.php
+src/system/Validation/StrictRules/CreditCardRules.php
+src/system/Validation/StrictRules/FileRules.php
+src/system/Validation/StrictRules/FormatRules.php
+src/system/Validation/StrictRules/Rules.php
+src/system/Validation/Validation.php
+src/system/Validation/ValidationInterface.php
+src/system/Validation/Views/list.php
+src/system/Validation/Views/single.php
+src/system/View/Cell.php
+src/system/View/Cells/Cell.php
+src/system/View/Exceptions/ViewException.php
+src/system/View/Filters.php
+src/system/View/Parser.php
+src/system/View/Plugins.php
+src/system/View/RendererInterface.php
+src/system/View/Table.php
+src/system/View/View.php
+src/system/View/ViewDecoratorInterface.php
+src/system/View/ViewDecoratorTrait.php
+src/system/bootstrap.php
+src/system/index.html
+src/system/rewrite.php
+src/tests/.htaccess
+src/tests/README.md
+src/tests/_support/Database/Migrations/2020-02-22-222222_example_migration.php
+src/tests/_support/Database/Seeds/ExampleSeeder.php
+src/tests/_support/Libraries/ConfigReader.php
+src/tests/_support/Models/ExampleModel.php
+src/tests/database/ExampleDatabaseTest.php
+src/tests/index.html
+src/tests/session/ExampleSessionTest.php
+src/tests/unit/HealthTest.php
+src/writable/.htaccess
+src/writable/cache/index.html
+src/writable/debugbar/debugbar_1740352942.275064.json
+src/writable/debugbar/debugbar_1740352945.637059.json
+src/writable/debugbar/debugbar_1740352949.209511.json
+src/writable/debugbar/debugbar_1740352952.747755.json
+src/writable/debugbar/debugbar_1740352955.425208.json
+src/writable/debugbar/debugbar_1740352958.316243.json
+src/writable/debugbar/debugbar_1740352960.848650.json
+src/writable/debugbar/debugbar_1740352963.319564.json
+src/writable/debugbar/debugbar_1740352966.020952.json
+src/writable/debugbar/debugbar_1740352968.512329.json
+src/writable/debugbar/debugbar_1740352970.950737.json
+src/writable/debugbar/debugbar_1740352973.456372.json
+src/writable/debugbar/debugbar_1740352977.312409.json
+src/writable/debugbar/debugbar_1740352982.317669.json
+src/writable/debugbar/debugbar_1740352984.926045.json
+src/writable/debugbar/debugbar_1740353117.599024.json
+src/writable/debugbar/debugbar_1740355341.300168.json
+src/writable/debugbar/debugbar_1740443630.647631.json
+src/writable/debugbar/debugbar_1740484518.890674.json
+src/writable/debugbar/debugbar_1740491547.198736.json
+src/writable/index.html
+src/writable/logs/index.html
+src/writable/logs/log-2025-02-23.log
+src/writable/logs/log-2025-02-24.log
+src/writable/session/ci_session0bcb961712a08d68f77d07dc87fd0cf5
+src/writable/session/ci_session4f79cf89732c640224623d2488bf3bec
+src/writable/session/ci_session5d383a2d28d95d0b1f64becfc23ccec3
+src/writable/session/ci_session5e271a23721e611a3fd13b062402de7b
+src/writable/session/ci_session701d80e1253d0a242ff6c918523bc43f
+src/writable/session/ci_session83cfc10e373d32d3110c5c0f14cd151e
+src/writable/session/ci_sessionbe1060403a9dba5c43b1bf630c9e33c8
+src/writable/session/ci_sessiond11371ae6a712c5dfb46649b32ddaa4c
+src/writable/session/ci_sessiond9a1a502181a52991d9de1fbbd8423d1
+src/writable/session/index.html
+src/writable/uploads/index.html
+
+
+git show --name-only 5d34bb2b89086a1a1b17402b7483b92380696c21 :: 
+commit 5d34bb2b89086a1a1b17402b7483b92380696c21
+Author: Gustavo Hammmes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 7 12:01:46 2025 +0000
+
+[SGC/PRO] - Update README.md
+
+README.md
+
+
+git show --name-only 1f0bd8199a386b3b333d4106fed6fad5d670259a :: 
+commit 1f0bd8199a386b3b333d4106fed6fad5d670259a
+Author: Gustavo Hammmes <gustavo.hammes@extreme.digital>
+Date:   Fri Mar 7 12:00:08 2025 +0000
+
+[SGC/PRO] - Initial commit
+
+README.md
+
+

@@ -1,0 +1,17 @@
+{
+    "id": "",
+    "orgao_id": "{{orgao_id}}",
+    "cadastro_cliente_id": "{{cadastro_cliente_id}}",
+    "cadastro_prestadora_id": "{{cadastro_prestadora_id}}",
+    "active": "Y",
+    "dia_cobrado": "{{dia_cobrado}}",
+    "data_inicio": "{{data_inicio}}",
+    "data_fim": "{{data_fim}}",
+    "custo_mensal": "{{custo_mensal}}",
+    "SEI": "{{SEI}}",
+    "created_by": "0",
+    "created_by_name": "unknown",
+    "updated_by": "0",
+    "updated_by_name": "unknown",
+    "upload": ""
+}

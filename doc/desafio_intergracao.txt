@@ -1,0 +1,157 @@
+Como vc viu tenho um projeto integrado com dois sevidores. 
+
+Preciso que o Servidor do Codeigniter 4 compartilhe as sessões e cookies com o Servidor do React.Js
+No inicio preciso que vc libere 100% da segurnaça do Codeigniter para que o React em outro servidor compartilhe as sessões e os cookies
+Depois reveremos a segurança com calma. Não informe nada de token ou segurança, veremos depois. 
+
+
+[SERVIDOR 1] - React.JS. Servidor/Porta: http://localhost:5173/
+src\public\script\react_modelo_v1\frontend\vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig(({ command }) => {
+  const config = {
+    plugins: [react()],
+    base: './', // Use path relativo
+    build: {
+      assetsDir: 'assets',
+      emptyOutDir: true,
+      rollupOptions: {
+        output: {
+          manualChunks: undefined
+        }
+      }
+    }
+  };
+
+  // Adiciona o proxy apenas em modo de desenvolvimento
+  if (command === 'serve') {
+    config.server = {
+      proxy: {
+        '/api': {
+          target: 'http://127.0.0.1:59000',
+          changeOrigin: true,
+          rewrite: (path) => path.replace(/^\/api/, '/src/public')
+        }
+      }
+    };
+  }
+
+  return config;
+});
+
+[SERVIDOR 2] - CodeIgniter 4. Servidor/Porta: http://127.0.0.1:59000/
+"C:\laragon\www\sgcpro\src\app\Config\CURLRequest.php"
+"C:\laragon\www\sgcpro\src\app\Config\Database.php"
+"C:\laragon\www\sgcpro\src\app\Config\DocTypes.php"
+"C:\laragon\www\sgcpro\src\app\Config\Email.php"
+"C:\laragon\www\sgcpro\src\app\Config\Encryption.php"
+"C:\laragon\www\sgcpro\src\app\Config\Events.php"
+"C:\laragon\www\sgcpro\src\app\Config\Exceptions.php"
+"C:\laragon\www\sgcpro\src\app\Config\Feature.php"
+"C:\laragon\www\sgcpro\src\app\Config\Filters.php"
+"C:\laragon\www\sgcpro\src\app\Config\ForeignCharacters.php"
+"C:\laragon\www\sgcpro\src\app\Config\Format.php"
+"C:\laragon\www\sgcpro\src\app\Config\Generators.php"
+"C:\laragon\www\sgcpro\src\app\Config\Honeypot.php"
+"C:\laragon\www\sgcpro\src\app\Config\Images.php"
+"C:\laragon\www\sgcpro\src\app\Config\Kint.php"
+"C:\laragon\www\sgcpro\src\app\Config\Logger.php"
+"C:\laragon\www\sgcpro\src\app\Config\Migrations.php"
+"C:\laragon\www\sgcpro\src\app\Config\Mimes.php"
+"C:\laragon\www\sgcpro\src\app\Config\Modules.php"
+"C:\laragon\www\sgcpro\src\app\Config\Optimize.php"
+"C:\laragon\www\sgcpro\src\app\Config\Pager.php"
+"C:\laragon\www\sgcpro\src\app\Config\Paths.php"
+"C:\laragon\www\sgcpro\src\app\Config\Publisher.php"
+"C:\laragon\www\sgcpro\src\app\Config\Routes.php"
+"C:\laragon\www\sgcpro\src\app\Config\Routing.php"
+"C:\laragon\www\sgcpro\src\app\Config\Security.php"
+"C:\laragon\www\sgcpro\src\app\Config\Services.php"
+"C:\laragon\www\sgcpro\src\app\Config\Session.php"
+"C:\laragon\www\sgcpro\src\app\Config\Toolbar.php"
+"C:\laragon\www\sgcpro\src\app\Config\UserAgents.php"
+"C:\laragon\www\sgcpro\src\app\Config\Validation.php"
+"C:\laragon\www\sgcpro\src\app\Config\View.php"
+"C:\laragon\www\sgcpro\src\app\Config\Boot"
+"C:\laragon\www\sgcpro\src\app\Config\App.php"
+"C:\laragon\www\sgcpro\src\app\Config\Autoload.php"
+"C:\laragon\www\sgcpro\src\app\Config\Cache.php"
+"C:\laragon\www\sgcpro\src\app\Config\Constants.php"
+"C:\laragon\www\sgcpro\src\app\Config\ContentSecurityPolicy.php"
+"C:\laragon\www\sgcpro\src\app\Config\Cookie.php"
+"C:\laragon\www\sgcpro\src\app\Config\Cors.php"
+
+src\public\.htaccess:
+# Disable directory browsing
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite engine
+# ----------------------------------------------------------------------
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+
+	# If you installed CodeIgniter in a subfolder, you will need to
+	# change the following line to match the subfolder you need.
+	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
+	# RewriteBase /
+
+	# Redirect Trailing Slashes...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} (.+)/$
+	RewriteRule ^ %1 [L,R=301]
+
+	# Rewrite "www.example.com -> example.com"
+	RewriteCond %{HTTPS} !=on
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+	RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+	# Checks to see if the user is attempting to access a valid file,
+	# such as an image or css document, if this isn't true it sends the
+	# request to the front controller, index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+	# Ensure Authorization header is passed along
+	RewriteCond %{HTTP:Authorization} .
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	# If we don't have mod_rewrite installed, all 404's
+	# can be sent to index.php, and everything works as normal.
+	ErrorDocument 404 index.php
+</IfModule>
+
+# ----------------------------------------------------------------------
+# CORS Configuration
+# ----------------------------------------------------------------------
+# Adicione isso no início do seu .htaccess na pasta public
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, POST, OPTIONS, PUT, DELETE"
+    Header always set Access-Control-Allow-Headers "Origin, Content-Type, X-Requested-With, Authorization, Accept"
+    Header always set Access-Control-Allow-Credentials "true"
+    
+    # Responder a requisições OPTIONS
+    RewriteEngine On
+    RewriteCond %{REQUEST_METHOD} OPTIONS
+    RewriteRule ^(.*)$ $1 [R=200,L]
+</IfModule>
+
+# Verificar se a requisição é OPTIONS e responder imediatamente
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} OPTIONS
+RewriteRule ^(.*)$ $1 [R=200,L,E=HTTP_ORIGIN:%{HTTP:ORIGIN}]
+
+# Disable server signature start
+ServerSignature Off
+# Disable server signature end
+

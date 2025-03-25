@@ -1,0 +1,235 @@
+[CODEIGNITER 4/BACKEND] http://127.0.0.1:59000/src/public/index.php/
+│
+└── src\
+    ├── app\
+    │   ├── Config\
+    │   │   ├── Boot\
+    │   │   │   ├── development.php (.php)
+    │   │   │   ├── production.php (.php)
+    │   │   │   └── testing.php (.php)
+    │   │   ├── App.php (.php)
+    │   │   ├── Autoload.php (.php)
+    │   │   ├── CURLRequest.php (.php)
+    │   │   ├── Cache.php (.php)
+    │   │   ├── Constants.php (.php)
+    │   │   ├── ContentSecurityPolicy.php (.php)
+    │   │   ├── Cookie.php (.php)
+    │   │   ├── Cors.php (.php)
+    │   │   ├── Database.php (.php)
+    │   │   ├── DocTypes.php (.php)
+    │   │   ├── Email.php (.php)
+    │   │   ├── Encryption.php (.php)
+    │   │   ├── Events.php (.php)
+    │   │   ├── Exceptions.php (.php)
+    │   │   ├── Feature.php (.php)
+    │   │   ├── Filters.php (.php)
+    │   │   ├── ForeignCharacters.php (.php)
+    │   │   ├── Format.php (.php)
+    │   │   ├── Generators.php (.php)
+    │   │   ├── Honeypot.php (.php)
+    │   │   ├── Images.php (.php)
+    │   │   ├── Kint.php (.php)
+    │   │   ├── Logger.php (.php)
+    │   │   ├── Migrations.php (.php)
+    │   │   ├── Mimes.php (.php)
+    │   │   ├── Modules.php (.php)
+    │   │   ├── Optimize.php (.php)
+    │   │   ├── Pager.php (.php)
+    │   │   ├── Paths.php (.php)
+    │   │   ├── Publisher.php (.php)
+    │   │   ├── Routes.php (.php)
+    │   │   ├── Routing.php (.php)
+    │   │   ├── Security.php (.php)
+    │   │   ├── Services.php (.php)
+    │   │   ├── Session.php (.php)
+    │   │   ├── Toolbar.php (.php)
+    │   │   ├── UserAgents.php (.php)
+    │   │   ├── Validation.php (.php)
+    │   │   └── View.php (.php)
+    │   ├── Controllers\
+    │   │   ├── Auth\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndPointController.php (.php)
+    │   │   ├── Circuito\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Secretaria\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Cobranca\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Contato\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Contrato\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Email\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Empresa\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Endereco\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Pattern\
+    │   │   │   ├── SystemBaseController.php (.php)
+    │   │   │   ├── SystemMailController.php (.php)
+    │   │   │   ├── SystemMessageController.php (.php)
+    │   │   │   ├── SystemUploadController.php (.php)
+    │   │   │   ├── SystemUploadDbController.php (.php)
+    │   │   │   └── TokenCsrfController.php (.php)
+    │   │   ├── Telefone\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Usuario\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── Velocidade\
+    │   │   │   ├── ApiController.php (.php)
+    │   │   │   ├── DbController.php (.php)
+    │   │   │   └── EndpointController.php (.php)
+    │   │   ├── BaseController.php (.php)
+    │   │   └── Home.php (.php)
+    │   ├── Database\
+    │   │   ├── Migrations\
+    │   │   │   └── .gitkeep (.gitkeep)
+    │   │   └── Seeds\
+    │   │       └── .gitkeep (.gitkeep)
+    │   ├── Filters\
+    │   │   ├── .gitkeep (.gitkeep)
+    │   │   ├── AuthFilter.php (.php)
+    │   │   └── CorsFilter.php (.php)
+    │   ├── Helpers\
+    │   │   ├── .gitkeep (.gitkeep)
+    │   │   ├── ContatoModel.php (.php)
+    │   │   ├── myAnonimo_helper.php (.php)
+    │   │   ├── myArray_helper.php (.php)
+    │   │   ├── myCPFvalidation_helper.php (.php)
+    │   │   ├── myCaptcha_helper.php (.php)
+    │   │   ├── myChar_helper.php (.php)
+    │   │   ├── myCookie_helper.php (.php)
+    │   │   ├── myDate_helper.php (.php)
+    │   │   ├── myEmulaSSO_helper.php (.php)
+    │   │   ├── myEndPoint_helper.php (.php)
+    │   │   ├── myFake_helper.php (.php)
+    │   │   ├── myIcon_helper.php (.php)
+    │   │   ├── myIdUFF_helper.php (.php)
+    │   │   ├── myPrint_helper.php (.php)
+    │   │   ├── myResolution_helper.php (.php)
+    │   │   └── myTerminalTraslation_helper.php (.php)
+    │   ├── Language\
+    │   │   ├── en\
+    │   │   │   └── Validation.php (.php)
+    │   │   └── .gitkeep (.gitkeep)
+    │   ├── Libraries\
+    │   │   └── .gitkeep (.gitkeep)
+    │   ├── Models\
+    │   │   ├── .gitkeep (.gitkeep)
+    │   │   ├── BaseCrudModel.php (.php)
+    │   │   ├── CadastroModel.php (.php)
+    │   │   ├── CircuitoModel.php (.php)
+    │   │   ├── SecretariaModel.php (.php)
+    │   │   ├── CobrancasModel.php (.php)
+    │   │   ├── ContatoModel.php (.php)
+    │   │   ├── ContratoModel.php (.php)
+    │   │   ├── EmailModel.php (.php)
+    │   │   ├── EmpresaModel.php (.php)
+    │   │   ├── EnderecoModel.php (.php)
+    │   │   ├── TelefoneModel.php (.php)
+    │   │   ├── UserModel.php (.php)
+    │   │   ├── VelocidadeModel.php (.php)
+    │   │   ├── ViewCadastroSecretariaModel.php (.php)
+    │   │   ├── ViewCadastroContatoModel.php (.php)
+    │   │   ├── ViewCadastroEmpresaModel.php (.php)
+    │   │   ├── ViewCadastroUsuarioModel.php (.php)
+    │   │   ├── ViewCircuitoVelocidadeModel.php (.php)
+    │   │   ├── ViewContratosCircuitosCadastroModel.php (.php)
+    │   │   ├── ViewEmailCadastroModel.php (.php)
+    │   │   ├── ViewEnderecoCadastroModel.php (.php)
+    │   │   ├── ViewTelefoneCadastroModel.php (.php)
+    │   │   └── _ExemploModels.php (.php)
+    │   ├── ThirdParty\
+    │   │   └── .gitkeep (.gitkeep)
+    │   ├── Views\
+    │   │   ├── errors\
+    │   │   │   ├── cli\
+    │   │   │   │   ├── error_404.php (.php)
+    │   │   │   │   ├── error_exception.php (.php)
+    │   │   │   │   └── production.php (.php)
+    │   │   │   └── html\
+    │   │   │       ├── debug.css (.css)
+    │   │   │       ├── debug.js (.js)
+    │   │   │       ├── error_400.php (.php)
+    │   │   │       ├── error_404.php (.php)
+    │   │   │       ├── error_exception.php (.php)
+    │   │   │       └── production.php (.php)
+    │   │   └── welcome_message.php (.php)
+    │   ├── .htaccess (.htaccess)
+    │   ├── Common.php (.php)
+    │   └── index.html (.html)
+    ├── public\
+    │   ├── script\
+    │   │   ├── react_modelo_v1\
+    │   │   └── index.html (.html)
+    │   ├── writable\
+    │   ├── .htaccess (.htaccess)
+    │   ├── favicon.ico (.ico)
+    │   ├── index.php (.php)
+    │   ├── info.php (.php)
+    │   ├── observer_codeigniter.php (.php)
+    │   ├── observer_react.php (.php)
+    │   ├── robots.txt (.txt)
+    │   ├── seguranca.php (.php)
+    │   └── teste.txt (.txt)
+    ├── system\
+    ├── tests\
+    │   ├── _support\
+    │   │   ├── Database\
+    │   │   │   ├── Migrations\
+    │   │   │   │   └── 2020-02-22-222222_example_migration.php (.php)
+    │   │   │   └── Seeds\
+    │   │   │       └── ExampleSeeder.php (.php)
+    │   │   ├── Libraries\
+    │   │   │   └── ConfigReader.php (.php)
+    │   │   └── Models\
+    │   │       └── ExampleModel.php (.php)
+    │   ├── database\
+    │   │   └── ExampleDatabaseTest.php (.php)
+    │   ├── session\
+    │   ├── unit\
+    │   │   └── HealthTest.php (.php)
+    │   ├── .htaccess (.htaccess)
+    │   ├── README.md (.md)
+    │   └── index.html (.html)
+    ├── writable\
+    ├── .env (.env)
+    ├── LICENSE (.)
+    ├── README.md (.md)
+    ├── composer.json (.json)
+    ├── env (.)
+    ├── phpunit.xml.dist (.dist)
+    ├── preload.php (.php)
+    └── spark (.)
+
+Tecnologias:
+# docker-compose.yml
+# Dockerfile (src)
+# Dockerfile (MySQL)
+# Dockerfile (Websocket Server)
+# PHP 8.2 (extensão calendar)
+# Codeigniter 4.6 (consolidando Tudo)
+ 
