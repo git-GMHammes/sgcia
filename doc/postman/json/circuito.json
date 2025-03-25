@@ -1,0 +1,17 @@
+{
+    "id":"{{id}}",
+    "velocidade_id":"{{velocidade_id}}",
+    "endereco_id":"{{endereco_id}}",
+    "cadastro_cliente_id":"NULL",
+    "status":"Ativo",
+    "active":"Y",
+    "sigla":"{{sigla}}",
+    "nome":"{{nome}}",
+    "data_ativacao":"{{data_ativacao}}",
+    "data_cancelamento":"{{data_cancelamento}}",
+    "SEI":"{{SEI}}",
+    "created_by": "0",
+    "created_by_name": "unknown",
+    "updated_by": "0",
+    "updated_by_name": "unknown"
+}

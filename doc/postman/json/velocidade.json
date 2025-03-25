@@ -1,0 +1,14 @@
+{
+    "id": "",
+    "empresa_id": "{{empresa_id}}",
+    "link": "{{link}}",
+    "estoque": "{{estoque}}",
+    "active": "{{active}}",
+    "velocidade": "{{velocidade}}",
+    "custo_unitario": "{{custo_unitario}}",
+    "tipo_servico": "{{tipo_servico}}",
+    "created_by": "0",
+    "created_by_name": "unknown",
+    "updated_by": "0",
+    "updated_by_name": "unknown"
+}

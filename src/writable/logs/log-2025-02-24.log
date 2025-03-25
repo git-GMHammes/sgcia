@@ -1,0 +1,13 @@
+WARNING - 2025-02-24 00:02:20 --> [DEPRECATED] Optional parameter $message declared before required parameter $typeMessage is implicitly treated as a required parameter in APPPATH/Controllers/SystemMessageController.php on line 30.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(316): include_once('/var/www/html/src/system/Debug/Exceptions.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('/var/www/html/src/app/Controllers/SystemMessageController.php')
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SystemMessageController')
+ 4 APPPATH/Controllers/CircuitoDbController.php(28): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SystemMessageController')
+ 5 APPPATH/Controllers/CircuitoApiController.php(27): App\Controllers\CircuitoDbController->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\CircuitoApiController->__construct()
+ 7 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-02-24 00:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

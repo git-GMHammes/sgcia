@@ -1,0 +1,13 @@
+{
+    "id": "{{id}}",
+    "tipo": "6",
+    "sigla_pronome_tratamento": "{{sigla_pronome_tratamento}}",
+    "nome": "{{nome}}",
+    "active": "{{active}}",
+    "cnpj_cpf": "{{cpf}}",
+    "remember_token": "{{remember_token}}",
+    "created_by": "0",
+    "created_by_name": "unknown",
+    "updated_by": "0",
+    "updated_by_name": "unknown"
+}

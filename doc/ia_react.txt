@@ -1,0 +1,234 @@
+[REACT/FRONT] http://localhost:5173/
+│
+└── script\
+    ├── react_modelo_v1\
+    │   ├── frontend\
+    │   │   ├── frontend\
+    │   │   │   ├── public\
+    │   │   │   │   └── vite.svg (.svg)
+    │   │   │   ├── src\
+    │   │   │   │   ├── assets\
+    │   │   │   │   │   └── react.svg (.svg)
+    │   │   │   │   ├── App.css (.css)
+    │   │   │   │   ├── App.jsx (.jsx)
+    │   │   │   │   ├── index.css (.css)
+    │   │   │   │   └── main.jsx (.jsx)
+    │   │   │   ├── .gitignore (.gitignore)
+    │   │   │   ├── README.md (.md)
+    │   │   │   ├── eslint.config.js (.js)
+    │   │   │   ├── index.html (.html)
+    │   │   │   ├── package.json (.json)
+    │   │   │   └── vite.config.js (.js)
+    │   │   ├── node_modules\
+    │   │   ├── public\
+    │   │   │   └── vite.svg (.svg)
+    │   │   ├── src\
+    │   │   │   ├── assets\
+    │   │   │   │   ├── images\
+    │   │   │   │   │   ├── circuitosProderj.jpeg (.jpeg)
+    │   │   │   │   │   ├── circuitosProderj2.jpeg (.jpeg)
+    │   │   │   │   │   ├── govbr-logo-large.png (.png)
+    │   │   │   │   │   └── logoProderj.png (.png)
+    │   │   │   │   └── react.svg (.svg)
+    │   │   │   ├── components\
+    │   │   │   │   ├── Auth\
+    │   │   │   │   │   └── useSession.js (.js)
+    │   │   │   │   ├── Button\
+    │   │   │   │   │   ├── Teste\
+    │   │   │   │   │   │   └── BtnProvisorio.jsx (.jsx)
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Footer\
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Header\
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Modal\
+    │   │   │   │   │   ├── BasicModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── BlurInModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── ElasticModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── FadeModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── FlipModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── PulsateModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── RotateModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── ShakeModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── SlideLeftRightbasicModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── SlideUpDownModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   ├── SwingModal\
+    │   │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   │   └── style.css (.css)
+    │   │   │   │   │   └── index.jsx (.jsx)
+    │   │   │   │   ├── NavHorizontal\
+    │   │   │   │   │   └── index.jsx (.jsx)
+    │   │   │   │   └── NavVertical\
+    │   │   │   │       ├── index.jsx (.jsx)
+    │   │   │   │       └── styles.css (.css)
+    │   │   │   ├── config\
+    │   │   │   │   └── env.js (.js)
+    │   │   │   ├── contexts\
+    │   │   │   │   ├── AuthContext.js (.js)
+    │   │   │   │   └── ThemeContext.js (.js)
+    │   │   │   ├── frontend\
+    │   │   │   │   ├── public\
+    │   │   │   │   │   └── vite.svg (.svg)
+    │   │   │   │   ├── src\
+    │   │   │   │   │   ├── assets\
+    │   │   │   │   │   │   └── react.svg (.svg)
+    │   │   │   │   │   ├── App.css (.css)
+    │   │   │   │   │   ├── App.jsx (.jsx)
+    │   │   │   │   │   ├── index.css (.css)
+    │   │   │   │   │   └── main.jsx (.jsx)
+    │   │   │   │   ├── .gitignore (.gitignore)
+    │   │   │   │   ├── README.md (.md)
+    │   │   │   │   ├── eslint.config.js (.js)
+    │   │   │   │   ├── index.html (.html)
+    │   │   │   │   ├── package.json (.json)
+    │   │   │   │   └── vite.config.js (.js)
+    │   │   │   ├── hooks\
+    │   │   │   │   ├── useApi.js (.js)
+    │   │   │   │   └── useAuth.js (.js)
+    │   │   │   ├── middlewares\
+    │   │   │   │   ├── authMiddleware.js (.js)
+    │   │   │   │   ├── errorHandlerMiddleware.js (.js)
+    │   │   │   │   └── loggingMiddleware.js (.js)
+    │   │   │   ├── pages\
+    │   │   │   │   ├── About\
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Circuito\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Cobranca\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Contato\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Contrato\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Empresa\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Home\
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Home_bkp\
+    │   │   │   │   │   ├── index.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Secretaria\
+    │   │   │   │   │   ├── AppAtualizar.jsx (.jsx)
+    │   │   │   │   │   ├── AppCadastrar.jsx (.jsx)
+    │   │   │   │   │   ├── AppConsultar.jsx (.jsx)
+    │   │   │   │   │   ├── AppForm.jsx (.jsx)
+    │   │   │   │   │   ├── AppListar.jsx (.jsx)
+    │   │   │   │   │   ├── AppListarConteudo.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   ├── Teste\
+    │   │   │   │   │   ├── PaginaModal.css (.css)
+    │   │   │   │   │   ├── PaginaModal.jsx (.jsx)
+    │   │   │   │   │   ├── PaginaProvisoria.jsx (.jsx)
+    │   │   │   │   │   ├── SessionCookie.jsx (.jsx)
+    │   │   │   │   │   └── styles.css (.css)
+    │   │   │   │   └── index.html (.html)
+    │   │   │   ├── routes\
+    │   │   │   │   └── index.jsx (.jsx)
+    │   │   │   ├── services\
+    │   │   │   │   ├── api.js (.js)
+    │   │   │   │   ├── auth.js (.js)
+    │   │   │   │   ├── circuito.js (.js)
+    │   │   │   │   ├── cobranca.js (.js)
+    │   │   │   │   ├── contato.js (.js)
+    │   │   │   │   ├── contrato.js (.js)
+    │   │   │   │   ├── contratos.js (.js)
+    │   │   │   │   ├── empresa.js (.js)
+    │   │   │   │   └── secretaria.js (.js)
+    │   │   │   ├── styles\
+    │   │   │   │   └── global.css (.css)
+    │   │   │   ├── utils\
+    │   │   │   │   └── helpers.js (.js)
+    │   │   │   ├── App.css (.css)
+    │   │   │   ├── App.jsx (.jsx)
+    │   │   │   ├── index.css (.css)
+    │   │   │   ├── index.html (.html)
+    │   │   │   └── main.jsx (.jsx)
+    │   │   ├── .gitignore (.gitignore)
+    │   │   ├── README.md (.md)
+    │   │   ├── eslint.config.js (.js)
+    │   │   ├── index.html (.html)
+    │   │   ├── package-lock.json (.json)
+    │   │   ├── package.json (.json)
+    │   │   └── vite.config.js (.js)
+    │   └── index.html (.html)
+    └── index.html (.html)
+
+
+
+PS C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend> npm list
+frontend@0.0.0 C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend
++-- @eslint/js@9.21.0
++-- @popperjs/core@2.11.8
++-- @types/react-dom@19.0.4
++-- @types/react@19.0.10
++-- @vitejs/plugin-react@4.3.4
++-- axios@1.8.4
++-- bootstrap-icons@1.11.3
++-- bootstrap@5.3.3
++-- eslint-plugin-react-hooks@5.2.0
++-- eslint-plugin-react-refresh@0.4.19
++-- eslint@9.21.0
++-- globals@15.15.0
++-- lucide-react@0.482.0
++-- react-bootstrap@2.10.9
++-- react-dom@19.0.0
++-- react-hook-form@7.54.2
++-- react-input-mask@3.0.0-alpha.2
++-- react-router-dom@7.4.0
++-- react@19.0.0
+`-- vite@6.2.1

@@ -1,0 +1,172 @@
+
+# ESTRTURA de INICIALIZAÇÃO	
+src/public/script/react_modelo_v1/frontend/src/main.jsx
+    ↓
+    ↓ (Invoca)
+    ↓
+src/public/script/react_modelo_v1/frontend/src/App.jsx
+    ↓
+    ↓ (Invoca)
+    ↓
+src/public/script/react_modelo_v1/frontend/src/routes/index.jsx
+
+// C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend\src\main.jsx
+import ReactDOM from 'react-dom/client';
+import { HashRouter } from 'react-router-dom';
+import App from './App';
+import './index.css';
+import '@popperjs/core/dist/umd/popper.min.js';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// Definir o tema escuro
+document.documentElement.setAttribute('data-bs-theme', 'dark');
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <HashRouter>
+    <App />
+  </HashRouter>
+);
+
+// C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend\src\App.jsx
+import React, { useState, useEffect } from 'react';
+import Routes from './routes/index.jsx';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import NavVertical from './components/NavVertical';
+import NavHorizontal from './components/NavHorizontal';
+import './App.css';
+
+function App() {
+  const [navOpen, setNavOpen] = useState(false);
+
+  // Função para alternar o estado do menu lateral
+  const toggleNav = () => {
+    setNavOpen(!navOpen);
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setTimeout(() => {
+          setNavOpen(false);
+        }, 2000);
+      }
+    };
+
+    // Executar no carregamento inicial
+    handleResize();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  return (
+    <div className="app d-flex flex-column min-vh-100">
+      <Header />
+      <NavHorizontal />
+      <div className="content-wrapper flex-grow-1 d-flex">
+        <NavVertical isOpen={navOpen} toggleNav={toggleNav} />
+        <main className={`p-3 flex-grow-1 ${navOpen ? 'ms-200' : 'ms-45'}`}>
+          <Routes />
+        </main>
+      </div>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+// C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend\src\routes\index.jsx
+import React from 'react';
+import { Routes, Route, Navigate } from 'react-router-dom';
+
+// Páginas principais
+import Home from '../pages/Home';
+import TesteSession from '../pages/Teste/SessionCookie';
+import PaginaProvisoria from '../pages/Teste/PaginaProvisoria';
+import PaginaModal from '../pages/Teste/PaginaModal';
+
+// Circuitos
+import CircuitosListar from '../pages/Circuito/AppListar';
+import CircuitosCadastrar from '../pages/Circuito/AppCadastrar';
+import CircuitosConsultar from '../pages/Circuito/AppConsultar';
+
+// Secretarias
+import SecretariasListar from '../pages/Secretaria/AppListar';
+import SecretariasCadastrar from '../pages/Secretaria/AppCadastrar';
+import SecretariasConsultar from '../pages/Secretaria/AppConsultar';
+
+// Cobranças
+import CobrancasListar from '../pages/Cobranca/AppListar';
+import CobrancasCadastrar from '../pages/Cobranca/AppCadastrar';
+import CobrancasConsultar from '../pages/Cobranca/AppConsultar';
+
+// Contatos
+import ContatosListar from '../pages/Contato/AppListar';
+import ContatosCadastrar from '../pages/Contato/AppCadastrar';
+import ContatosConsultar from '../pages/Contato/AppConsultar';
+
+// Contrato (não encontrei Contato_operadoras na estrutura de diretórios)
+import ContratosListar from '../pages/Contrato/AppListar';
+import ContratosCadastrar from '../pages/Contrato/AppCadastrar';
+import ContratosConsultar from '../pages/Contrato/AppConsultar';
+
+// Empresas
+import EmpresasListar from '../pages/Empresa/AppListar';
+import EmpresasCadastrar from '../pages/Empresa/AppCadastrar';
+import EmpresasConsultar from '../pages/Empresa/AppConsultar';
+
+const RouteConfig = () => {
+    return (
+        <Routes>
+            {/* Rotas principais */}
+            <Route path="/" element={<Home />} />
+            <Route path="/teste-session" element={<TesteSession />} />
+            <Route path="/pagina-provisoria" element={<PaginaProvisoria />} />
+            <Route path="/pagina-modal" element={<PaginaModal />} />
+            
+            {/* Rotas de Circuitos */}
+            <Route path="/circuitos/listar" element={<CircuitosListar />} />
+            <Route path="/circuitos/cadastrar" element={<CircuitosCadastrar />} />
+            <Route path="/circuitos/consultar" element={<CircuitosConsultar />} />
+            
+            {/* Rotas de Secretarias */}
+            <Route path="/Secretarias/listar" element={<SecretariasListar />} />
+            <Route path="/Secretarias/cadastrar" element={<SecretariasCadastrar />} />
+            <Route path="/Secretarias/consultar" element={<SecretariasConsultar />} />
+            
+            {/* Rotas de Cobranças */}
+            <Route path="/cobrancas/listar" element={<CobrancasListar />} />
+            <Route path="/cobrancas/cadastrar" element={<CobrancasCadastrar />} />
+            <Route path="/cobrancas/consultar" element={<CobrancasConsultar />} />
+            
+            {/* Rotas de Contatos */}
+            <Route path="/contatos/listar" element={<ContatosListar />} />
+            <Route path="/contatos/cadastrar" element={<ContatosCadastrar />} />
+            <Route path="/contatos/consultar" element={<ContatosConsultar />} />
+            
+            {/* Rotas de Contratos */}
+            <Route path="/contratos/listar" element={<ContratosListar />} />
+            <Route path="/contratos/cadastrar" element={<ContratosCadastrar />} />
+            <Route path="/contratos/consultar" element={<ContratosConsultar />} />
+            
+            {/* Rotas de Empresas */}
+            <Route path="/empresas/listar" element={<EmpresasListar />} />
+            <Route path="/empresas/cadastrar" element={<EmpresasCadastrar />} />
+            <Route path="/empresas/consultar" element={<EmpresasConsultar />} />
+            
+            {/* Rota de fallback (redireciona URLs desconhecidas para Home) */}
+            <Route path="*" element={<Navigate to="/" replace />} />
+        </Routes>
+    );
+};
+
+export default RouteConfig;
