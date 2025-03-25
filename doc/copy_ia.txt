@@ -1,0 +1,1 @@
+robocopy "C:\laragon\www\sgcpro\src\public\script\react_modelo_v1\frontend" "C:\laragon\www\sgcia\src\public\script\react_modelo_v1\frontend" /MIR /XD "node_modules" "src_2"
