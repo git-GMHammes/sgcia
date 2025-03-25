@@ -1,0 +1,5 @@
+mysql/mysql-data/*
+node_modules/*
+src/writable/*
+src/public/dist/*
+src/public/writable/*
